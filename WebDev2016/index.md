@@ -16,12 +16,12 @@ We can for example navigate and edit [these wiki pages](https://github.com/Livel
 
 # Projects
 
-* [Project 1 -- Cache: Jan Graichen, Meike Baumgaertner](WebDev16_Project1)
-* [Project 2 -- RDF: Daniel Stolpe, Yannis Kommana](WebDev16_Project2)
-*	[Project 3 -- Indexing: Daniel Werner, Felix Wolff](WebDev16_Project3)
-* [Project 4 -- Services: Fabio Niephaus, Philipp Otto](WebDev16_Project4)
-* [Project 5 -- COP: Jakob Reschke,  Marianne Thieffry](WebDev16_Project5)
-* [Project 6 -- AExpr: Timo Djuerken, Philipp Pajak](WebDev16_Project6)
+* [Project 1 -- Cache: Jan Graichen, Meike Baumgaertner](project_1/index.md)
+* [Project 2 -- RDF: Daniel Stolpe, Yannis Kommana](project_2/index.md)
+*	[Project 3 -- Indexing: Daniel Werner, Felix Wolff](project_3/index.md)
+* [Project 4 -- Services: Fabio Niephaus, Philipp Otto](project_4/index.md)
+* [Project 5 -- COP: Jakob Reschke,  Marianne Thieffry](project_5/index.md)
+* [Project 6 -- AExpr: Timo Djuerken, Philipp Pajak](project_6/index.md)
 
 # Getting Started
 
