@@ -1,5 +1,11 @@
-# Project 5 -- COP: ContextJS 2.0
-Jakob Reschke,  Marianne Thieffry
+# Jakob Reschke,  Marianne Thieffry -- COP: ContextJS 2.0
+
+
+[presentation.pdf](presentation.pdf)
+
+
+![](figure.png)
+
 
 ## Background: ContextJS 
 - Context-oriented Programming for JavaScript 
@@ -15,7 +21,8 @@ Jakob Reschke,  Marianne Thieffry
 – Optimize for performance
 
 ## Realization
-# Step 1: Standalone library
+
+### Step 1: Standalone library
 Extract ContextJS from Lively/Babelsberg/... to a standalone library.
 
 Starting point: Lively3 COP tests are green (except tests for inlining which is currently out of scope and not in production). Extracted core/cop subtree into the [new repository](https://github.com/LivelyKernel/ContextJS).

@@ -1,7 +1,8 @@
-# Project 6	-- AExpr: Active Expressions
+# Timo Djürken, Philipp Pajak	-- AExpr: Active Expressions
 
-Timo Djürken, Philipp Pajak
+[presentation](presentation.pdf)
 
+![](figure.png)
 
 ## Background: Using imperative JavaScript to 
 - Derive declarative constraint descriptions (OCP)

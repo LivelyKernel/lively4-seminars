@@ -1,5 +1,10 @@
-# Project 3 -- Indexing: Personal Cloud Search
-Daniel Werner, Felix Wolff
+# Daniel Werner, Felix Wolff -- Indexing: Personal Cloud Search
+
+
+[presentation](presentation.pdf)
+
+
+![](figure.png)
 
 ## Background: 
 - Hard to search find private content and code

@@ -1,8 +1,9 @@
-# Project 1 -- Cache: Change-based Persistence 
+# Jan Graichen, Meike Baumgaertner -- Cache: Change-based Persistence 
 
-Jan Graichen, Meike Baumgaertner
+[presentation](presentation.ppdf)
 
 
+![](figure.png)
 
 ## Background: 
 

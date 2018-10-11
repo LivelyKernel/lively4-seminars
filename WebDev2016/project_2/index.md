@@ -1,5 +1,8 @@
-# Project 2 -- RDF: Semantic Web Scripting
-Daniel Stolpe, Yannis Kommana
+# Daniel Stolpe, Yannis Kommana -- RDF: Semantic Web Scripting
+
+
+[presentation](presentation.pdf)
+
 
 ![Screenshot](https://drive.google.com/uc?export=download&id=0B4ixDwTSrrqUNThwSy1qTEJuc0U)
 
