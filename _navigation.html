@@ -1,0 +1,36 @@
+
+
+<lively-script><script>
+// #TODO replace with own.. lively-navigation tag #Feature #Component
+var context = lively.query(this, "lively-import")
+if (context) {
+  var contextURL = context.getAttribute("src")
+} 
+if (contextURL) {
+  contextURL = contextURL.replace(/[^\/]*$/,"")
+  
+  var links = {
+    Seminars: "index.md",
+    PX2018: "PX2018",
+    RE2018: "RE2018",
+    RP2018: "RP2018",
+    SWD2015: "SWD2015",
+    SWD2016: "SWD2016",
+    WebDev2016: "WebDev2016",
+    WebDev2017: "WebDev2017"
+  }
+  var container = lively.query(this, "lively-container")
+  var base = contextURL;
+  var div = document.createElement("div")
+  if (container) {
+    Object.keys(links).forEach(ea => {
+      div.appendChild(container.createLink(base, ea, links[ea]))
+      div.appendChild(document.createTextNode(" | "))
+    })
+  };
+  var result = div
+} else {
+  var result = <b>please use lively-import to include this page</b>
+};
+result
+</script></lively-script>

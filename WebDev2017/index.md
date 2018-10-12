@@ -1,8 +1,8 @@
 # WebDev 2017 Seminar, HPI
 
+<lively-import src="../_navigation.html"></lively-import>
 
-
-[topics](WebDev1718.pdf)
+[Topics](WebDev1718.pdf)
 
 - [Project 1 Jonas Chromik - Vivide/JS](project_1/index.md)
 - [Project 2 David Rauch, Sebastian Koall - Offline First](project_2/index.md)
@@ -15,7 +15,7 @@
 
 
 
-## Termin
+## Dates
 
 - Project 1 -- 30.1.
 - Project 2 -- 30.1.

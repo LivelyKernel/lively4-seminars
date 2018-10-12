@@ -1,5 +1,8 @@
 # RE 18 - Reverse Engineering HPI Seminar 2018
 
+
+<lively-import src="../_navigation.html"></lively-import>
+
 - [description](description.md)
 - [topics](topics.md)
 

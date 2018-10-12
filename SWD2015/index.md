@@ -1,5 +1,7 @@
 # Welcome to Software Design 2015, HPI
 
+<lively-import src="../_navigation.html"></lively-import>
+
 - [SWD15Topics](SWD15Topics)
 - [Whiteboards](SWD15Whiteboards)
 

@@ -1,5 +1,7 @@
 # Software Design 2016 - HPI Seminar on evolving the Lively4 Web-based Development Environment
 
+<lively-import src="../_navigation.html"></lively-import>
+
 The seminar will build upon the results of our previous [SWD](SWD15) and [WebDev](WebDev16) seminars.
 
 The development environment runs 100% in the browser and can therefore be served from static [github.io](https://livelykernel.github.io/lively4-core/draft/start.html?load=/README.md) pages and use GitHub, Dropbox and other Cloud APIs for persistence. 

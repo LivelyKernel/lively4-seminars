@@ -1,6 +1,4 @@
-# Project 6 - Graph Drawing - README
-
-PX SS2018, Theresa Zobel, Siegfried Horschig
+# Project 6: Theresa Zobel, Siegfried Horschig -- Graph Drawing
 
 ## Active Essay
 

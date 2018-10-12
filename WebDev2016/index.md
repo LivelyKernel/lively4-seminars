@@ -1,4 +1,6 @@
-# WebDev 2016 - HPI Seminar on evolving the Lively4 Web-based Development Environment
+# WebDev 2016 <br> HPI Seminar on evolving the Lively4 <br>Web-based Development Environment
+
+<lively-import src="../_navigation.html"></lively-import>
 
 The seminar will build upon the results of our previous [SWD Seminar](SWD15). 
 
