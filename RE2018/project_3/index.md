@@ -25,7 +25,12 @@
   - Dynamisch
 - Toolintegration
   - auch: Interaktionsdesign
+    ![](file_181023_061104.png)
 
+## Initial Tasks
+
+- [ ] Readings durchgehen, weiterführende Literatur suchen
+- [ ] Kopie des ContinuousEditors (als Spielwiese) anlegen
 
 ---
 
