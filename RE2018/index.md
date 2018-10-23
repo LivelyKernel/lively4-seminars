@@ -4,8 +4,34 @@
 <lively-import src="../_navigation.html"></lively-import>
 
 - [description](description.md)
-- [topics](topics.md)
+- [topics](RE18_Topics.pdf)
+- [assignments](assignments.md)
 
+## Projects
+
+- [Project 1: Eva Krebs, Christian Flach - Jupyter Notebooks in Squeak/Smalltalk](project_1/index.md)
+- [Project 2: Florian Henschel, Erik Brendel - Categorizing Message Categories](project_2/index.md)
+- [Project 3: Stephan Lutz, Martin Stamm - Why and Why Not Questions](project_3/index.md)
+- [Project 4: Marcus Konrad, Martin Fischer - Stroposcoping for non-graphical Objects](project_4/index.md)
+- [Project 5: Friedrich Schoene,  Victor Künstler - Github-Explorer ](project_5/index.md)
+- [Project 6: Noel Danz, Raoul Baron - Recovering Data](project_6/index.md)
+- [Project 7: Jonas Beyer - The Program according to Garp](project_7/index.md)
+- [Project 8: Falco Duersch - SSL Support in GraalSqueak](project_8/index.md)
+- [Project 9: Melanie Schneider - Lively4 Semantic Code Overview](project_9/index.md)
+
+
+## Development Links
+
+- RE2018 @ https://github.com/LivelyKernel/lively4-seminars/ 
+- edit it as [Lively4MarkdownWiki](https://lively-kernel.org/lively4/lively4-core/start.html?load=https://lively-kernel.org/lively4/lively4-seminars/RE2018/)
+
+![Squeak / Smalltalk](smalltalk.png){width=80px}  
+  - [https://squeak.org/](https://squeak.org/)
+  - [https://github.com/hpi-swa/vivide](https://github.com/hpi-swa/vivide)
+
+![Lively4](lively4.png)
+  - [https://github.com/livelykernel/lively4-core](https://github.com/livelykernel/lively4-core)
+  - [https://lively-kernel.org/lively4/lively4-core/start.html](https://lively-kernel.org/lively4/lively4-core/start.html)
 
 
 ## Material
