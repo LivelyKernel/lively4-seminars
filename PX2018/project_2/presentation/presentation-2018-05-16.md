@@ -2,17 +2,17 @@
 
 <script>
 // TODO: 
-import { openBrowser, openComponent } from "doc/PX2018/project_2/utils.js"
+import { openBrowser, openComponent } from "https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.js"
 
 let presentationSize = "hd";
 
-lively.components.addTemplatePath(lively4url + "/doc/PX2018/project_2/")
+lively.components.addTemplatePath("https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/")
 lively.components.resetTemplatePathCache()
 </script>
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/utils.css">
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/presentation.css">
+<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.css">
+<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/presentation.css">
 
-<link rel="stylesheet" type="text/css" href="doc/PX2018/style.css" />
+<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/style.css" />
 <link rel="stylesheet" type="text/css" href="src/client/lively.css" />
 <link rel="stylesheet" type="text/css" href="templates/livelystyle.css" />
 
@@ -69,7 +69,7 @@ if (presentation && presentation.slides) {
   presentation.slides().forEach(ea => {
     var img = document.createElement("img")
     img.classList.add("logo")
-    img.src="https://lively-kernel.org/lively4/lively4-jens/doc/PX2018/media/hpi_logo.png" 
+    img.src="https://lively-kernel.org/lively4/lively4-seminars/PX2018/media/hpi_logo.png" 
     img.setAttribute("width", "50px")
     ea.appendChild(img)
 

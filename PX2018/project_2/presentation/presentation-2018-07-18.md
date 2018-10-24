@@ -1,9 +1,9 @@
 <!-- markdown-config presentation=true -->
 
 <script>
-import { openBrowser, openComponent } from "doc/PX2018/project_2/utils.js"
+import { openBrowser, openComponent } from "https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.js"
 import { hideHiddenElements, toggleLayer, showVariable, runExampleButton } from "src/client/essay.js";
-import livelyMpm from 'doc/PX2018/project_2/lively-mpm.js'
+import livelyMpm from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/lively-mpm.js'
 
 const showDetails = false;
 let presentation = lively.query(this, "lively-presentation");
@@ -26,10 +26,10 @@ slides.forEach(slide => {
 });
 
 </script>
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/utils.css">
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/presentation.css">
+<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.css">
+<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/presentation.css">
 
-<link rel="stylesheet" type="text/css" href="doc/PX2018/style.css" />
+<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/style.css" />
 <link rel="stylesheet" type="text/css" href="src/client/lively.css" />
 <link rel="stylesheet" type="text/css" href="templates/livelystyle.css" />
 
@@ -78,7 +78,7 @@ if (presentation && presentation.slides) {
   presentation.slides().forEach(ea => {
     var img = document.createElement("img")
     img.classList.add("logo")
-    img.src="https://lively-kernel.org/lively4/lively4-jens/doc/PX2018/media/hpi_logo.png" 
+    img.src="https://lively-kernel.org/lively4/lively4-seminars/PX2018/media/hpi_logo.png" 
     img.setAttribute("width", "50px")
     ea.appendChild(img)
 
@@ -148,7 +148,7 @@ import latexconv from "src/external/latex-to-unicode-converter.js";
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'doc/PX2018/project_2/circlemesh.js';
+import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
 import boundEval from "src/client/bound-eval.js";
 (async() => {
   let animation = await (<presentation-animation></presentation-animation>);
@@ -302,7 +302,7 @@ import latexconv from "src/external/latex-to-unicode-converter.js";
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'doc/PX2018/project_2/circlemesh.js';
+import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
 import boundEval from "src/client/bound-eval.js";
 (async() => {
   let animation = await (<presentation-animation></presentation-animation>);
@@ -372,7 +372,7 @@ import boundEval from "src/client/bound-eval.js";
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'doc/PX2018/project_2/circlemesh.js';
+import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
 import boundEval from "src/client/bound-eval.js";
 (async() => {
   let animation = await (<presentation-animation></presentation-animation>);
@@ -435,7 +435,7 @@ latexconv.convertLaTeXToUnicode("\\eta = (2 * y - (y\\sub{n1}+y\\sub{n4})) / \\D
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'doc/PX2018/project_2/circlemesh.js';
+import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
 import boundEval from "src/client/bound-eval.js";
 (async() => {
   let animation = await (<presentation-animation></presentation-animation>);

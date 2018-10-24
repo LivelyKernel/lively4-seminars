@@ -9,7 +9,6 @@
 - Static and dynamic structure and dependencies
 - Code coverage / system heat map
 
-
 ## Readings
 
 - ...

@@ -1,6 +1,6 @@
 <script>
 // all scripts are lively-scripts that share the same "module" and therefore module global variables
-import { createNewFileButton } from "doc/PX2018/project_2/utils.js"
+import { createNewFileButton } from "https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.js"
 </script>
 
 
