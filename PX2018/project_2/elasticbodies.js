@@ -1,6 +1,6 @@
 import MpmAnimation from './mpmanimation.js';
 import Matrix from './matrix.js';
-import CircleMesh from 'doc/PX2018/project_2/circlemesh.js';
+import CircleMesh from './circlemesh.js';
 
 // Original Source:
 //  Title: Material point method: basics and applications

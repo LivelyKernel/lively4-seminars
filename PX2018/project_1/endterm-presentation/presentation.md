@@ -1,10 +1,11 @@
 <!-- markdown-config presentation=true -->
 
 <!-- begin styles -->
-<link rel="stylesheet" type="text/css" href="doc/PX2018/style.css"  />
-<link rel="stylesheet" type="text/css" href="src/client/lively.css"  />
-<link rel="stylesheet" type="text/css" href="templates/livelystyle.css"  />
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_1/endterm-presentation/assets/style.css"  />
+<link rel="stylesheet" type="text/css" href="../../style.css"  />
+
+<link rel="stylesheet" type="text/css" href="../../../../lively4-core/src/client/lively.css"  />
+<link rel="stylesheet" type="text/css" href="../../../../lively4-core/templates/livelystyle.css"  />
+<link rel="stylesheet" type="text/css" href="assets/style.css"  />
 
 <style>
   .lively-slide {
@@ -50,6 +51,7 @@ import {hideHiddenElements, toggleLayer, showVariable, runExampleButton} from "s
   import {presentationFullscreenButton} from "src/client/essay.js"
   presentationFullscreenButton(this)
 </script>
+
 
 
 ---
@@ -98,6 +100,8 @@ import {hideHiddenElements, toggleLayer, showVariable, runExampleButton} from "s
 <p class="center subtitle">Idea: Researchers maintain ledger collaboratively</p>
 <p class="credits">Icons made by <a href="https://www.freepik.com/">Freepik</a> from <a href="https://flaticon.com">www.flaticon.com</a></p>
 
+
+
 ---
 ## Blockchain
 <div class="quotation">
@@ -127,6 +131,8 @@ concept published by Satoshi Nakamoto (pseudonym) in 2008
 
 ---
 <h1 class="centralized">Concepts</h1>
+
+
 
 ---
 
@@ -499,3 +505,6 @@ blockchain.isValid();
   <li>demonstration in separate UI makes collaboration of single concepts better understandable</li>
 </ul>
 </ul>
+
+
+

@@ -22,7 +22,7 @@ export default class CircleMesh {
   }
   
   static async gmsh(radius, x, y) {
-    let response = await fetch("doc/PX2018/project_2/gmsh-circle-mesh.json");
+    let response = await fetch("https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/gmsh-circle-mesh.json");
     let points = (await response.json()).points;
     
     for (let point of points) {

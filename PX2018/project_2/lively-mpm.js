@@ -1,9 +1,9 @@
 "enable aexpr";
 
 import Morph from'src/components/widgets/lively-morph.js';
-import VibratingPoint from 'doc/PX2018/project_2/vibratingpoint.js';
-import ElasticBodies from 'doc/PX2018/project_2/elasticbodies.js';
-import Matrix from 'doc/PX2018/project_2/matrix.js';
+import VibratingPoint from './vibratingpoint.js';
+import ElasticBodies from './elasticbodies.js';
+import Matrix from './matrix.js';
 
 export default class LivelyMpm extends Morph {
   async initialize() {

@@ -1,6 +1,7 @@
 <!-- markdown-config presentation=true -->
 
 <script>
+
 import { openBrowser, openComponent } from "https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.js"
 import { hideHiddenElements, toggleLayer, showVariable, runExampleButton } from "src/client/essay.js";
 import livelyMpm from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/lively-mpm.js'

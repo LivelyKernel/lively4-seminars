@@ -2,10 +2,10 @@
 
 <!-- #TODO make style links in container content relative to url -->
 <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
-<link rel="stylesheet" type="text/css" href="doc/PX2018/style.css"  />
-<link rel="stylesheet" type="text/css" href="src/client/lively.css"  />
-<link rel="stylesheet" type="text/css" href="templates/livelystyle.css"  />
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_1/midterm-presentation/style.css"  />
+<link rel="stylesheet" type="text/css" href="../../style.css"  />
+<link rel="stylesheet" type="text/css" href="../../../../lively4-core/src/client/lively.css"  /> <!--- #Links... to lively? -->
+<link rel="stylesheet" type="text/css" href="../../../../lively4-core/templates/livelystyle.css"  />
+<link rel="stylesheet" type="text/css" href="style.css"  />
 <style>
   .lively-slide {
     border: 1px solid rgb(220,220,220)

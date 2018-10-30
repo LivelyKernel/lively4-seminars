@@ -1,6 +1,6 @@
 # Project 4: Marcus Konrad, Martin Fischer - Stroposcoping for non-graphical Objects
 
-![](motivation.png)
+![](https://lively-kernel.org/lively4/lively4-seminars/RE2018/project_4/motivation.png)
 
 ## Description
 
@@ -9,7 +9,7 @@
 - Hypothesis: Only few properties of an object change frequently
 - **Goal:** Provide a stroposcopic view for arbitrary JavaScript objects
 
----
+* * *
 
 ## Readings
 
@@ -18,6 +18,7 @@
 - Bret Victor:
   - [Inventing on Principle](https://youtu.be/PUv66718DII?t=642)
   - Der 'See across time'-Aspekt von [Seeing Spaces](https://vimeo.com/97903574) könnte auch interessant sein
+- [ ] Designing the User Interface, Ben Shneiderman
 
 ## Project Scope
 
@@ -37,8 +38,8 @@
 ## Initial Tasks
 
 - [ ] Readings
-- [ ] Herausfinden, was sinnvoll überhaupt ist (Inquiry Stage)
+- [ ] Herausfinden, was sinnvoll überhaupt ist (Inquiry Stage) 
   - [ ] Literatur zum Effekt von Stroboscoping zur Comprehension von Vorgängen finden
-  - [ ] Referenzen finden
+  - [ ] Referenzen finden 
     - [ ] [Gapminder](https://www.gapminder.org/) ausprobieren
 - [ ] Next Step: Design Space öffnen
