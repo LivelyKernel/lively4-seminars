@@ -4,9 +4,9 @@
 
 ## Description
 
-- Identifying the root cause of a failure involves an enormonous search space, often done manually
-- The WhyLine automates this process, by allowing programmers to as why and why not questions about a program execution 
-- *Goal:* Implement a WhyLine for JavaScript
+- Identifying the root cause of a failure involves an enormous search space, often sifted through manually
+- The WhyLine automates this process, by allowing programmers to ask why and why not questions about a program's execution 
+- *Goal:* Implement a [WhyLine](https://github.com/andyjko/whyline) for JavaScript
 
 ---
 
@@ -29,7 +29,7 @@
 
 ## Initial Tasks
 
-- [ ] Readings durchgehen, weiterführende Literatur suchen
+- [x] Readings durchgehen, weiterführende Literatur suchen
 - [ ] Kopie des ContinuousEditors (als Spielwiese) anlegen
 
 ---

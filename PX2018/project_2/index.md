@@ -1,10 +1,10 @@
 <script>
 // all scripts are lively-scripts that share the same "module" and therefore module global variables
-import { createNewFileButton } from "https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.js"
+import { createNewFileButton } from "./utils.js"
 </script>
 
 
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/utils.css">
+<link rel="stylesheet" type="text/css" href="utils.css">
 
 # Project 2: Sebastian Koall - Material Point Method
 
@@ -28,7 +28,7 @@ mpm.animation.particles = mpm.animation.particles.slice(0,12)
 mpm.animation.initParticles()
 
 
-import ElasticBodies from "doc/PX2018/project_2/elasticbodies.js"
+import ElasticBodies from "./elasticbodies.js"
 
 // #UPDATE_INSTANCES
 // after updating elasticbodies.js, the class changes

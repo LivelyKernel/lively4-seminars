@@ -2,9 +2,12 @@
 
 <script>
 
-import { openBrowser, openComponent } from "https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.js"
+import { openBrowser, openComponent } from "../utils.js"
 import { hideHiddenElements, toggleLayer, showVariable, runExampleButton } from "src/client/essay.js";
-import livelyMpm from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/lively-mpm.js'
+import livelyMpm from '../lively-mpm.js'
+import latexconv from "src/external/latex-to-unicode-converter.js";
+import CircleMesh from '../circlemesh.js';
+import boundEval from "src/client/bound-eval.js";
 
 const showDetails = false;
 let presentation = lively.query(this, "lively-presentation");
@@ -27,12 +30,12 @@ slides.forEach(slide => {
 });
 
 </script>
-<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/utils.css">
-<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/presentation.css">
+<link rel="stylesheet" type="text/css" href="../utils.css">
+<link rel="stylesheet" type="text/css" href="../presentation.css">
 
-<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-seminars/PX2018/style.css" />
-<link rel="stylesheet" type="text/css" href="src/client/lively.css" />
-<link rel="stylesheet" type="text/css" href="templates/livelystyle.css" />
+<link rel="stylesheet" type="text/css" href="../../style.css" />
+<link rel="stylesheet" type="text/css" href="../../../../lively4-core/src/client/lively.css" />
+<link rel="stylesheet" type="text/css" href="../../../../lively4-core/templates/livelystyle.css" />
 
 <style>
   .lively-slide {
@@ -53,43 +56,10 @@ slides.forEach(slide => {
   
 </style>
 
+
 <script>
-let presentButton = document.createElement('button');
-presentButton.innerHTML = 'present';
-presentButton.addEventListener("click", async () => {
-  document.documentElement.webkitRequestFullScreen(Element.ALLOW_KEYBOARD_INPUT);
-  // wait for fullscreen
-  await lively.sleep(100);
-
-  let width = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
-  let height = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
-  let scaling = width / slides[0].clientWidth;
-  
-  slides.forEach(slide => {
-    slide.style.transform = 'scale(' + scaling + ')';
-    slide.style.transformOrigin = 'top left';
-    slide.style.position = 'fixed';
-    slide.style.zIndex = '10001';
-  })
-
-  presentButton.style.display = 'none';
-})
-
-if (presentation && presentation.slides) {
-  presentation.slides().forEach(ea => {
-    var img = document.createElement("img")
-    img.classList.add("logo")
-    img.src="https://lively-kernel.org/lively4/lively4-seminars/PX2018/media/hpi_logo.png" 
-    img.setAttribute("width", "50px")
-    ea.appendChild(img)
-
-    var div = document.createElement("div")
-    div.classList.add("page-number")
-    ea.appendChild(div)
-  });
-}
-
-presentButton
+  import {presentationFullscreenButton} from "src/client/essay.js"
+  presentationFullscreenButton(this)
 </script>
 
 <div class="title-frontpage">
@@ -138,7 +108,6 @@ presentButton
 <div class="notes h-1-2">
 <ul class="notes-big">
 <li><script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 "Continuum body <strong>" + latexconv.convertLaTeXToUnicode("\\Omega") + "</strong> discretized into material points <strong>p</strong>";
 </script> 
 </li>
@@ -149,8 +118,6 @@ import latexconv from "src/external/latex-to-unicode-converter.js";
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
-import boundEval from "src/client/bound-eval.js";
 (async() => {
   let animation = await (<presentation-animation></presentation-animation>);
   animation.startStep = 0;
@@ -178,7 +145,7 @@ import boundEval from "src/client/bound-eval.js";
               "nodes": { type: "points", value: nodes, color: "#555", size: nodeSize },
               "grid": { type: "overlay", value: overlay } });
   animation.animationSteps = steps;  
-  return <div><link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/presentation.css" /><div class="animation">{animation}</div></div>;
+  return <div><link rel="stylesheet" type="text/css" href="../presentation.css" /><div class="animation">{animation}</div></div>;
 })()
 </script>
 </div>
@@ -195,7 +162,7 @@ import boundEval from "src/client/bound-eval.js";
   mpm.reset(true);
   mpm.explanation = ["Particles created with:<br>mesh generator gmsh"];
   
-  return <div><link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/presentation.css" /><div class="mpm">{mpm}</div></div>;
+  return <div><link rel="stylesheet" type="text/css" href="../presentation.css" /><div class="mpm">{mpm}</div></div>;
 })()
 </script>
 
@@ -303,10 +270,8 @@ import latexconv from "src/external/latex-to-unicode-converter.js";
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
-import boundEval from "src/client/bound-eval.js";
 (async() => {
-  let animation = await (<presentation-animation></presentation-animation>);
+  let animation = await (lively.create("presentation-animation"));
   animation.startStep = 0;
   let points2 = [[250, 300], [340, 285], [150, 100], [ 350, 80], [40, 280]];
   let nodeSize = 8;
@@ -350,19 +315,16 @@ import boundEval from "src/client/bound-eval.js";
   <ul>
   <li>
   <script>
-  import latexconv from "src/external/latex-to-unicode-converter.js";
   latexconv.convertLaTeXToUnicode("Velocity v\\sub{p}");
   </script>
   </li>
   <li>
   <script>
-  import latexconv from "src/external/latex-to-unicode-converter.js";
   latexconv.convertLaTeXToUnicode("Position x\\sub{p}");
   </script>
   </li>
   <li>
   <script>
-  import latexconv from "src/external/latex-to-unicode-converter.js";
   latexconv.convertLaTeXToUnicode("Deformation Gradient L\\sub{p}");
   </script>
   </li>
@@ -373,10 +335,8 @@ import boundEval from "src/client/bound-eval.js";
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
-import boundEval from "src/client/bound-eval.js";
 (async() => {
-  let animation = await (<presentation-animation></presentation-animation>);
+  let animation = await (lively.create("presentation-animation"));
   animation.startStep = 0;
   let points = [[250, 300], [340, 285], [150, 100], [ 350, 80], [40, 280]];
   let movedPoints = [[270, 280], [360, 265], [170, 80], [ 370, 60], [60, 260]];
@@ -420,12 +380,10 @@ import boundEval from "src/client/bound-eval.js";
 <li>Transform into natural coordinates: 
 <ul>
 <li><script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("\\xi = (2 * x - (x\\sub{n1}+x\\sub{n2})) / \\Delta x");
 </script>
 </li>
 <li><script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("\\eta = (2 * y - (y\\sub{n1}+y\\sub{n4})) / \\Delta y");
 </script>
 </li>
@@ -436,8 +394,6 @@ latexconv.convertLaTeXToUnicode("\\eta = (2 * y - (y\\sub{n1}+y\\sub{n4})) / \\D
 
 <div class="h-2-2">
 <script>
-import CircleMesh from 'https://lively-kernel.org/lively4/lively4-seminars/PX2018/project_2/circlemesh.js';
-import boundEval from "src/client/bound-eval.js";
 (async() => {
   let animation = await (<presentation-animation></presentation-animation>);
   animation.startStep = 0;
@@ -474,25 +430,21 @@ import boundEval from "src/client/bound-eval.js";
 <ul>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("N\\sub{1} = \\frac{1}{4} * (1 - \\xi) * (1 - \\eta)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("N\\sub{2} = \\frac{1}{4} * (1 + \\xi) * (1 - \\eta)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("N\\sub{3} = \\frac{1}{4} * (1 + \\xi) * (1 + \\eta)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("N\\sub{4} = \\frac{1}{4} * (1 - \\xi) * (1 + \\eta)");
 </script>
 </li>
@@ -507,49 +459,41 @@ latexconv.convertLaTeXToUnicode("N\\sub{4} = \\frac{1}{4} * (1 - \\xi) * (1 + \\
 <ul>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndx\\sub{1} = \\frac{1}{4} * (\\eta - 1)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndx\\sub{2} = \\frac{1}{4} * -(\\eta - 1)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndx\\sub{3} = \\frac{1}{4} * (\\eta + 1)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndx\\sub{4} = \\frac{1}{4} * -(\\eta + 1)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndy\\sub{1} = \\frac{1}{4} * (\\xi - 1)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndy\\sub{2} = \\frac{1}{4} * -(\\xi + 1)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndy\\sub{3} = \\frac{1}{4} * (\\xi + 1)");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("Ndy\\sub{4} = \\frac{1}{4} * -(\\xi - 1)");
 </script>
 </li>
@@ -568,19 +512,16 @@ latexconv.convertLaTeXToUnicode("Ndy\\sub{4} = \\frac{1}{4} * -(\\xi - 1)");
 <ul>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 "Mass: " + latexconv.convertLaTeXToUnicode("M\\sub{i} += m\\sub{p} * N\\sub{i}");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 "Node Momentum: " + latexconv.convertLaTeXToUnicode("MV\\sub{i} += N\\sub{i} * m\\sub{p} * v\\sub{p}");
 </script>
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 "Force: " + latexconv.convertLaTeXToUnicode("F\\sub{i} = N\\sub{i} * f\\sub{p} - Nd\\sub{i} * \\sigma \\sub{p} *  v\\sub{p}");
 </script>
 </li>
@@ -598,19 +539,16 @@ import latexconv from "src/external/latex-to-unicode-converter.js";
 <ul>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("v\\sub{p} = N\\sub{i} * F\\sub{i} / M\\sub{i} * dT");
 </script> 
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("pos\\sub{p} += N\\sub{i} * MV\\sub{i} / M\\sub{i} * dT");
 </script> 
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("\\Delta L += v\\sub{i} * Nd' * dT");
 </script> 
 </li>
@@ -619,13 +557,11 @@ latexconv.convertLaTeXToUnicode("\\Delta L += v\\sub{i} * Nd' * dT");
 <ul>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("L\\sub{p} = L\\sub{p} * \\Delta L");
 </script> 
 </li>
 <li>
 <script>
-import latexconv from "src/external/latex-to-unicode-converter.js";
 latexconv.convertLaTeXToUnicode("V\\sub{p} = det(L\\sub{p}) * V\\sub{0_p}");
 </script> 
 </li>
