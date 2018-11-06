@@ -91,10 +91,10 @@ Possible Dates:
 - (Wed 28.11. 11:00-12:30) #StevenKell
 
 - Tue 4.12. 15:15-16:45
-  - Project 2, 4, 8
+  - Project 2, 5, 8
 
 - Wed 5.12. 11:00-12:30
-  - Project 5, 6, 9
+  - Project 4, 6, 9
 
 - Tue 11.12 15:15-16:45
  

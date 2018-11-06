@@ -35,6 +35,30 @@
 - [Gapminder](https://www.gapminder.org/) for objects
 - Over-time Inspector
 
+## Interesting Example Objects<!-- {style=background-color:red} -->
+
+- [D3 Bundle view](browse://src/client/vivide/components/d3-bundleview.js)
+  - interesting to see rendering state (path) and layout code (x, x1 etc) when not or not right displayed
+  - real example: NaN in path... 
+  
+![](bundleview_node_with_data.png){width=500}
+
+
+
+- Code Mirror
+  - cursor and selection range, highlighting...
+
+- container
+  - url history... because of automatic redirections
+  - edit vs view mode
+  - hidden state like modules loaded, and caught errors
+
+- lively editor, interesting because of automatic merges / syncs etc
+  - url
+  - version number
+  - content 
+
+
 ## Initial Tasks
 
 - [ ] Readings
