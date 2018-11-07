@@ -12,3 +12,9 @@
 ## Readings
 
 - ...
+
+## Settings
+Enable preferences: 
+- local file index
+- use offline first swx cache
+- (show grid)
