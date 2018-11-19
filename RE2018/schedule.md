@@ -16,6 +16,6 @@
 
 ## Mid-term, Wed 5.12. 11:00-12:30
   
-- Project 4: Marcus Konrad  , Martin Fischer
+- Project 4: Marcus Konrad, Martin Fischer
 - Project 6: Noel Danz, Raoul Baron
 - Project 9: Melanie Schneider   
