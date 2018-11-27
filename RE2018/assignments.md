@@ -66,7 +66,7 @@
 
 # Dates
 
-## Now
+## Start of Semester
 
 - Provide Github username
   - write access to https://github.com/LivelyKernel/lively4-seminars/ / https://lively-kernel.org/lively4/lively4-seminars/RE2018/
@@ -80,24 +80,26 @@
 - Team Projects: 30min
 - Single Projects: 20min
 
-Possible Dates:
 
-- (Tue 20.11. 15:15-16:45) #Nanjing
-- (Wed 21.11. 11:00-12:30) #Nanjing
+### Tue 27.11. 15:15-16:45
 
-- Tue 27.11. 15:15-16:45
-  - Project 1, 3, 7
+- Project 1: Eva Krebs, Christian Flach
+- Project 3: Stephan Lutz, Martin Stamm
+- Project 8: Falco Duersch
 
-- (Wed 28.11. 11:00-12:30) #StevenKell
+### Tue 4.12. 15:15-16:45
 
-- Tue 4.12. 15:15-16:45
-  - Project 2, 5, 8
+- Project 2: Florian Henschel, Erik Brendel
+- Project 5: Friedrich Schoene,  Victor Künstler
+- Project 7: Jonas Beyer
 
-- Wed 5.12. 11:00-12:30
-  - Project 4, 6, 9
+### Wed 5.12. 11:00-12:30
+  
+- Project 4: Marcus Konrad  , Martin Fischer
+- Project 6: Noel Danz, Raoul Baron
+- Project 9: Melanie Schneider   
 
-- Tue 11.12 15:15-16:45
- 
+
 
 ## Final Presentations
 
