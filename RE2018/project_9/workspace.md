@@ -5,11 +5,12 @@ import FileIndex from "https://lively-kernel.org/lively4/lively4-analysis/src/cl
 import SemanticAnalysisUtils from "./src/semanticanalysisutils.js"
 
 (async () => {
-  
-  FileIndex.current().db.classes.where("type").equals("file").each((clazz) => {
-  })
+
+  var analysis = await lively.create('lively-analysis')
+  analysis.setViewWidth(1100, 'px')
+  analysis.setViewHeight(900, 'px')
+  return analysis
+
 })()
 
 </script>
-<div>Hello <button>bla</button></div>
-<lively-analysis></lively-analysis>
