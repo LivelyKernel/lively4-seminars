@@ -16,6 +16,9 @@ Useful info or determining when / if a mail object was touched, before it went m
 - who is referencing me
 - who is sending me as part of a message to other objects
 
+Test to execute:
+`MDMessageBoxTest>>testSynchronizationMovesMovedFiles`
+
 ## Squeak Web Request Processing
 
 Request handling is a complex and hard to understand. With redirects and authentication, it is difficult to see what is happening with a request.
@@ -26,6 +29,9 @@ Useful info for determining where / why a request failed or lead to an unexpecte
 
 - who is modifying me / sending with messages to me
 - who is sending me as part a message to other objects
+
+Test to execute:
+`WebClientServerTest>>testRedirectLoop`
 
 ## Morphic Canvas Interactions
 
@@ -38,15 +44,24 @@ Useful info for getting an overview of all morphs that are placed on a canvas:
 - who is sending messages of a specific type to me
 - what are the contents/arguments of messages of a specific type
 
+"Test" to execute:
+`MorphInteractionsTest>>run`
+
 # Interaction Patterns
 
-- send message to me
+- Someone sends a message to me
     - who
+    - what message
     - from what method / block
     - with which arguments
-    - return value of message
     - more context?
-    - `request headerAt: 'Host' put: server.`
+        - return value of message
+    - e.g. `request headerAt: 'Host' put: server.`
+
+- I send a message to someone else
+    - who
+    - what message
+    - with which arguments
 
 OFA Aliases:
 - pass me as message argument
@@ -62,18 +77,26 @@ OFA Aliases:
 
 ## How To Select Objects?
 
-- `self garp` analogue to `self halt`
-- enable / disable for a class `Garp enableFor: WebRequest`
-- enable for all objects in a certain method
-- pass a method to be executed on its own and enable during execution
-
-garp registry
-
+- calling the wrapper explicitly
+- `anObject garp`, `self garp`
+- during a block
+- via UI (halo)
 
 # Implementation
 
-`PointerFinder`
+## `MwMethodWrapper` from SwaUtils
 
-`MwMethodWrapper` from SwaUtils
+`GarpMethodWrapper`
+- implements message send / receive analysis by overriding `valueWithReceiver:arguments:`
+- provides `(un)wrapClass:` and `(un)wrapObject:` methods
+- stores wrapped classes and objects in class fields `ClassWrappers` and `ObjectWrappers`
+- wrapper instances store whether they have a target object, if not, they target all objects of the wrapped class in `valueWithReceiver:arguments:`
+- provides `wrap(Class|Object):in:`, receiving a block and only wrapping given class/object during execution of that block
+- TODO: provides `wrapAllIn:`, receiving a block and wrapping all classes that take part in execution of that block
 
-`thisContext`
+`Object`
+- has `garp` as extension method, which calls `GarpMethodWrapper wrapObject: self`
+
+##`thisContext`
+
+##`InstructionStream`, `Simulator`

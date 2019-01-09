@@ -1,0 +1,21 @@
+Interaction Patterns:
+
+Hier greife ich auf die Vorarbeit im Object-Flow-Analysis-Paper zurück.
+Es beschäftigt sich mit der Analyse vom Fluss von Objekten in einem Programm zur Laufzeit, d.h. es werden die Interaktionen zwischen allen Objekten betrachtet.
+Fragen wie
+- "Welche Klassen tauschen Objekte aus?"
+- "Welche Klassen sind Objekt-Hubs?" etc.
+
+Dort werden Situationen identifiziert, in denen ein Objekt durch eine Referenz sichtbar gemacht wird (genannt Alias):
+- Objekt wird instanziiert
+- Objekt wird als argument einer Nachricht übergeben
+- Objekt wird am Ende einer Methode zurückgegeben
+- Objekt wird gespeichert oder ausgelesen (Feld, lokale Variable, Collection)
+Diese sind spannend, um den allgemeinen Fluss eines Objekts durch das Programm zu analysieren.
+Wir wollen zusätzlich interaktionen finden, d.h. es kommen als Situationen dazu:
+- Objekt2 sendet Nachricht an Objekt
+- Objekt sendet Nachricht an Objekt2
+Dabei ist vermutlich auch der Kontext interessant:
+- Aus welcher methode / welchem block wird die Nachricht gesendet (ggf auch mehrere Ebenen)
+- Was sind die Argumente
+- Was ist der Rückgabewert
