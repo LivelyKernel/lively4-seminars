@@ -1,0 +1,30 @@
+Fragen:
+
+ToDo:
+    - Use cases: Web Requests testRedirectLoop, SMailDir testSynchronizationMovesMovedFiles
+    - Stacktrace aus sicht eines Objekts -> Einrückung / Nachvollziehbarkeit
+    - COP statt MethodWrappers ist nicht passend -> theoretisch argumentieren
+        - Without ggf. selbst implementieren
+    - Git repo committen
+    - object selection mechanismen implementieren
+        - block-based
+            - all classes/objects
+        - per halo
+    - Test für einfaches garping mit eingehenden & ausgehenden nachrichten
+    - UI-Konzept
+    - Aliases implementieren
+
+Research Questions:
+    - wie viele method calls
+    - was ist sinnvolles scoping
+    - wie ist performance
+
+Done:
+    - message send implementieren ✅
+    - object selection mechanismen implementieren
+        - self garp ✅
+        - block-based
+            - one class/object ✅
+    - object scoping (liste von garp-objekten) ✅
+    - in eigenes Fenster rendern ✅
+
