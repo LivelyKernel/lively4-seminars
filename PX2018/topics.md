@@ -2,9 +2,9 @@
 
 <!-- #TODO make style links in container content relative to url -->
 <!-- <link rel="stylesheet" type="text/css" href="style.css" /> -->
-<link rel="stylesheet" type="text/css" href="doc/PX2018/style.css"  />
-<link rel="stylesheet" type="text/css" href="src/client/lively.css"  />
-<link rel="stylesheet" type="text/css" href="templates/livelystyle.css"  />
+<link rel="stylesheet" type="text/css" href="./style.css"  />
+<link rel="stylesheet" type="text/css" href="../../src/client/lively.css"  />
+<link rel="stylesheet" type="text/css" href="../../templates/livelystyle.css"  />
 
 <style>
   .lively-slide {
@@ -471,7 +471,7 @@ if (presentation && presentation.slides) {
   presentation.slides().forEach(ea => {
     var img = document.createElement("img")
     img.classList.add("logo")
-    img.src="https://lively-kernel.org/lively4/lively4-jens/doc/PX2018/media/hpi_logo.png" 
+    img.src="https://lively-kernel.org/lively4/lively4-seminars/PX2018/media/hpi_logo.png" 
     img.setAttribute("width", "50px")
     ea.appendChild(img)
 
