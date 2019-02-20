@@ -1,15 +1,21 @@
-Fragen:
+Probleme:
+    - WebRequest Connection closed while waiting for data
+        - debugging, metalevel, streams?
 
 ToDo:
-    - Use cases: Web Requests testRedirectLoop, SMailDir testSynchronizationMovesMovedFiles
-    - Stacktrace aus sicht eines Objekts -> Einrückung / Nachvollziehbarkeit
-    - COP statt MethodWrappers ist nicht passend -> theoretisch argumentieren
-        - Without ggf. selbst implementieren
-    - Git repo committen
+
+    - Formal wie verschiedene message sends gehen -> ST80-Buch
+    - peekMessageSendReceiver robuster 
+        - peekMessageSendReceiver geht nicht bei der ausführung von "super initialize" in "initialize", weil der receiver (super) damit erst erstellt wird?
+        - Workaround:
+            - #initialize explitit nicht wrappen
+            - alternativ: zumindest die eingehende message loggen, aber dann nicht simulieren
+            - alternativ: peekMessageSendReceiver robuster machen? 
+    - Use cases: Web Requests testRedirectLoop
+    - icons für treeview        
     - object selection mechanismen implementieren
         - block-based
             - all classes/objects
-        - per halo
     - Test für einfaches garping mit eingehenden & ausgehenden nachrichten
     - UI-Konzept
     - Aliases implementieren
@@ -20,11 +26,39 @@ Research Questions:
     - wie ist performance
 
 Done:
-    - message send implementieren ✅
-    - object selection mechanismen implementieren
-        - self garp ✅
-        - block-based
-            - one class/object ✅
-    - object scoping (liste von garp-objekten) ✅
-    - in eigenes Fenster rendern ✅
+    - Paket schnüren
 
+Done Done:
+    - bessere UI (sender hinten etc., font/farben?)
+    - indentation as dynamic variable
+    - Halo-Garping für nicht-Morphs? e.g. MDMail?
+        -> Morph>>model
+    - 2FA für github squeak
+    - Use cases: SMailDir testSynchronizationMovesMovedFiles
+    - custom halos -> direkt ins debug menu
+    - Stacktrace aus sicht eines Objekts -> Nachvollziehbarkeit (Collapsing) -> PluggableTree
+    - Git repo
+    - dynamic variable "disabled" Kernel-Processes-Variables-DynamicVariable Subklassen, implementierung Klassenseite "GarpStatus value: false during: [ ... record input ...]"
+        - Without ggf. selbst implementieren
+        - COP statt MethodWrappers ist nicht passend -> theoretisch argumentieren
+    - ein gegarptes Objekt ins diary schreiben zu wollen (entweder bei "IN: to <X>" oder bei einem self send kann zu endlos-loop führen wenn "asString" implementiert ist)
+        - Workaround-Ideen:
+            - bei incoming weglassen (klasse ist eh klar da explizit gegarpt?)
+                - alternativ auf Object extension method asStringIgnoringGarp, die beim wrappen explizit ignoriert wird, verwenden
+            - bei outgoing bei self send durch "self" ersetzen
+            - statt string objekte direkt speichern?
+            - without (siehe contextS)
+            - blacklist
+            - class variable "disabled"
+            - dynamic variable "disabled" Kernel-Processes-Variables-DynamicVariable Subklassen, implementierung Klassenseite "GarpStatus value: false during: [ ... record input ...]"
+    - WebClient>>httpHead:do: wrong wrapper used -> messageNotUnderstood
+        - Lösung: implizites "^ self" nicht beachtet
+    - message send implementieren
+    - object selection mechanismen implementieren
+        - self garp
+        - block-based
+            - one class/object
+        - per halo (debug menu)
+    - object scoping (liste von garp-objekten)
+    - in eigenes Fenster rendern
+    - Einrückung
