@@ -25,18 +25,18 @@ The execution trace can be navigated using the buttons above the code mirror:
 On the right hand side a column of data flow questions can be found. These questions change dynamically depending on the variables relevant to the selected node.
 
 ## Code Structure
-`lively-whyline.[js/html]` _Graphical tool._
-`lively-whyline-plugin.js` _Plugin for [babeljs](https://babeljs.io/). Transforms code to include tracing statements, so that the execution of the transformed code creates an execution trace._
-`lively-whyline-tracing.js` _Defines the structure of and operations available on an execution trace as well as the individual trace nodes._
-`lively-whyline-example.js` _Showcase of most of the covered language features._
-`lively-whyline-example2.js` _Code with a defect ([source](https://eloquentjavascript.net/08_error.html))._
-`lively-whyline-example3.js` _A binary search algorithm._
+`lively-whyline.[js/html]` _Graphical tool._ <br>
+`lively-whyline-plugin.js` _Plugin for [babeljs](https://babeljs.io/). Transforms code to include tracing statements, so that the execution of the transformed code creates an execution trace._ <br>
+`lively-whyline-tracing.js` _Defines the structure of and operations available on an execution trace as well as the individual trace nodes._ <br>
+`lively-whyline-example.js` _Showcase of most of the covered language features._ <br>
+`lively-whyline-example2.js` _Code with a defect ([source](https://eloquentjavascript.net/08_error.html))._ <br>
+`lively-whyline-example3.js` _A binary search algorithm._ <br>
 
 ## Issues
 ### Destructuring
 To determine the value of variables and properties after a destructuring assignment, the tracing adds an expression after the assignment accessing the relevant variables and properties. If a property accessor with side effects is used, however, the program might behave differently.
 
-### Scopes
+### Function Scopes
 To track the identity of variables we elected to attach a represantative for each variable to the trace node of its scope. Whenever an operation on this variable is to be logged, this representative has to be found - usually by looking up parent chain. The scope of functions, however, do not depend on an ancestor, but the scope they were defined in. Since we do not yet trace any object's or even any function's history, we currently opted to incorrectly also go up the parent chain for functions. This may be a drawback of our implementation, though it won't really matter in the long run, once object histories are actually traced.
 
 ### Missing Language Features
@@ -80,7 +80,7 @@ To track the identity of variables we elected to attach a represantative for eac
   - log where an object was created
   - log changes to object properties over time
   - log all nodes that have touched an object
-- d3js trace view
+- [d3js trace view](trace-view-design/README.md)
 - object inspector
   - integrate some form of object inspector into the UI
   - in combination with object history: allow questions about properties
@@ -98,7 +98,7 @@ To track the identity of variables we elected to attach a represantative for eac
   - demeter's law?
 
 ### User Interface
-- nested nodes
+- [nested nodes](trace-view-design/README.md)
 - basic navigating functions
   - first/last node in function
 - collapsing trace nodes
