@@ -56,6 +56,8 @@ For that reason, for every visualization type, the corresponding parameters are 
 
 Radial trees or simple trees can display the data down to deeper levels of the hierarchy of the data. By setting the value to a name of a field of an object, the user can choose the desired field that is used on every level of the data hierarchy for rendering the visualization.
 
+A count aggregation for lists of objects is done automatically. This additional field is listed as `<PropertyName>COUNT`.
+
 ## Implementation
 
 We will discuss some implementation details in the following.
