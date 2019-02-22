@@ -1,5 +1,7 @@
 # Github Explorer
 
+_Friedrich Schöne & Victor Künstler_
+
 Datasets are growing quickly but at the same time, data scientists create analyses that get more and more complex. Typically, exploring data involves a broad collection of different technologies, tools and it also requires several steps do extract interesting insights. For that reason, the process of building such a workflow until the actual exploration requires a lot of implementation time which often consists of the same steps which requires background knowledge about the data and programming skills.
 To reduce this implementation overhead and the need for background knowledge, we developed a tool to explore the data schema, query the data and explore the resulting data visually for a database containing GitHub data (e.g. commits, projects, authors, comments). We abstracted the data and the relations between tables with the help of an ORM.
 To support the exploration of the schemata, we developed a custom query language, which, in contrast to traditional SQL, supports a more natural way of exploring data and handling relationships between data.
@@ -62,11 +64,19 @@ A count aggregation for lists of objects is done automatically. This additional 
 
 We will discuss some implementation details in the following.
 
+### Architecture
+
+![Architecture](resources/architecture.png)
+
+The connection to the backend is achieved by the implementation of a proxy on the lively4-server.
+
+The backend and its documentation can be found [here](https://github.com/VictorKuenstler/lively4-github-explorer-server).
+
 ### Editor
 
 The completion and the editor itself is implemented using the [Monaco Editor](https://microsoft.github.io/monaco-editor/). We implemented a custom language `ghExplorer` and a custom theme `ghExplorerTheme`.
 
-The completions are dynamically built using the information that is provided by an endpoint of the RestfulAPI that implements the parser and ORM for the custom query language.
+The completions are dynamically built using the information that is provided by an endpoint of the RESTful API that implements the parser and ORM for the custom query language.
 
 ### Visualization
 
