@@ -97,6 +97,13 @@ OFA Aliases:
 `Object`
 - has `garp` as extension method, which calls `GarpMethodWrapper wrapObject: self`
 
-##`thisContext`
+## `Context` class
+
+- access stack frame below using `sender`
+- simulate execution of a method using `runSimulated:contextAtEachStep:`
+- `method`
+- `willSend`
+- `peekMessageSend`
+
 
 ##`InstructionStream`, `Simulator`
