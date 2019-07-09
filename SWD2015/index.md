@@ -1,4 +1,4 @@
-# Welcome to Software Design 2015, HPI
+# SWD 2015 Seminar (HPI)
 
 <lively-import src="../_navigation.html"></lively-import>
 

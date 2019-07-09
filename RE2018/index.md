@@ -1,5 +1,4 @@
-# RE 18 - Reverse Engineering HPI Seminar 2018
-
+# RE 2018 - Reverse Engineering Seminar (HPI)
 
 <lively-import src="../_navigation.html"></lively-import>
 
@@ -49,3 +48,11 @@ Reverse engineering is a process of analyzing such systems, by identifying its c
 In this seminar, the participants will work in teams to develop reverse engineering tools in the context of exploratory development environments Squeak (Smalltalk) and Lively4 (JavaScript) that facilitate such a process. 
 
 [1] Chikofsky, E. J.; Cross, J. H. (January 1990). "Reverse engineering and design recovery: A taxonomy". IEEE Software. 7: 13–17. doi:10.1109/52.43044.
+
+
+
+
+<!-- LOGO and FOOTER -->
+![](../hpi_logo_text.png){style="position:absolute; height: 60px; top: 10px; right: 20px; background: white"} 
+
+*[Software Architecture Group](https://www.hpi.uni-potsdam.de/hirschfeld/) 2015-present*

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+  </head>
+  <body>
+    <script>
+      if (!window.location.search) {
+        // #TODO can I prevent the reload like in lively-container?
+        window.location.search = `load=https://lively-kernel.org/lively4/lively4-seminars/index.md&fullscreen=true`
+      }
+    </script>
+    <script src="https://lively-kernel.org/lively4/lively4-jens/src/client/boot.js" data-container="true"></script>
+  </body>
+</html>

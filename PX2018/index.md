@@ -11,3 +11,9 @@
 - [Project 6: Theresa Zobel, Siegfried Horschig - Graph Drawing](project_6/index.md)
   
    
+
+
+<!-- LOGO and FOOTER -->
+![](../hpi_logo_text.png){style="position:absolute; height: 60px; top: 10px; right: 20px"} 
+
+*[Software Architecture Group](https://www.hpi.uni-potsdam.de/hirschfeld/) 2015-present*

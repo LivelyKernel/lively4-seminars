@@ -28,7 +28,9 @@ if (contextURL) {
       div.appendChild(container.createLink(base, ea, links[ea]))
       div.appendChild(document.createTextNode(" | "))
     })
-  };
+  } else {
+    div.appendChild(<span>where is my container?</span>)
+  }
   var result = div
 } else {
   var result = <b>please use lively-import to include this page</b>
