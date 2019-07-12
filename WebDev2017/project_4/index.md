@@ -1,4 +1,4 @@
-# Toni Stachewicz, Niklas Hoffmann - WritePad Handwriting Recognition
+# Project 4: Toni Stachewicz, Niklas Hoffmann - WritePad Handwriting Recognition
 
 [presentation](presentation.pdf)
 

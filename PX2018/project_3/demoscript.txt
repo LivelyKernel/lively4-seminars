@@ -1,0 +1,58 @@
+The ECS tool can be opened with "ECSECSWidget open".
+The final presentation can be opened with "ECSEssay open". Slides can be turned with the arrow buttons in the upper left or the space bar.
+
+##############################################################################################
+
+Demo 1, slide 10, Working with premade components and systems
+
+This demo provides an general introduction to the ECS tool.
+The white rectangle with a grey outline in the middle is the playground. All game simulation will happen in there.
+
+Above the playground are three widgets, from left to right: the pause button (toggles between simulation active and paused), the reset button, and a simulation indication lamp (green when simulation active).
+
+Left of the playground is the systems panel. All currently known systems are shown here. If the checkbox is checked, the system is active (this can be toggled by clicking on the checkbox).
+Systems are called each iteration (~10 ms) in order from top to bottom.
+The +-button allows for creating new systems; a system needs a name, which component types it works on and what is done with each entity.
+
+Below the playground is the entity panel. The entity panel allows for selecting an entity whose components are displayed.
+The +-button allows for creating new entities. For easier identificating, entity handles may have names.
+
+Right of the playground is the component panel. All components of an entity are displayed here.
+The entity can be renamed here. The "add component" adds a premade component to the entity.
+This will cause a component widget to appear where the values of the component may be edited. Enter saves the input.
+Some values may have buttons for easier input. For more complex values pressing enter will open an inspector.
+All the component widgets become scrollable if there are too many of them. Clicking on their header hides or opens their content.
+The "new component" button allows adding custom components with a name and values.
+
+Since everything is empty at the beginning of the demo, the user adds a first entity. This can now be given a picture (take paths or our predefined pictures, eg wizard) and a position to appear.
+With a motion component it can move (edit values in component panel).
+
+###############################################################################################
+
+Demo 2, slide 11, Creating your own components and systems
+
+This demo starts with a controllabele wizard and a non-moving enemy. The player can be moved with the arrow keys on the keyboard. If they collide, the wizard dies and the simulation has to be reset.
+To move, the enemy monster is given a motion component and a user-made PathComponent (should contain a start x and a start y).
+Then a path system is added that works with position motion and path. If the monsters position is behind the start x, the motion is 1@0 (eg entity positionComponent position x > entity pathComponent start ifTrue:[entity motionComponent velocity: 1@0]), inverse for end x.
+The monster is then given an initial motion in either direction.
+
+###############################################################################################
+
+Demo 3, slide 13, Small Example Game
+
+The game consits of the wizard (controlled with arrow keys, shoot fireball with m key, teleports with n key), monsters that spawn randomly and move towards the wizard (and are deadly), blocks that cannot be moved through (except for the dwarf), bushes that can burn and a dwarf.
+
+The dwarf can be made playable with wasd keys by adding more components. Adding/Editing more components allows him to shoot fireballs and get a dwarfwizard sprite.
+
+###############################################################################################
+
+Demo 4, slide 18, Encapsulated Behavior and Debugging
+
+This demo starts with one wizard and one monster.
+The monster cannot move. The player can be moved with the arrow keys on the keyboard.
+The user moves the wizard towards the monster. They collide and the wizard dies, but long before the visible sprites collide.
+Something must have went wrong, thinks the user.
+To debug this strange occurence, the user resets the tool and enables ECSDebugCollisionSystem.
+The collision boundaries are visualized with orange rectangles; the rectangle of the wizard being way bigger than the sprite.
+Now the user can select the wizard in the entity dropdown and correct his collision component (our sprites are 50@50).
+If the wizrad is moved towards the monster now, he collides (and dies) correctly.

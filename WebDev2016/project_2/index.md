@@ -1,14 +1,18 @@
-# Daniel Stolpe, Yannis Kommana -- RDF: Semantic Web Scripting
+# Project 2: Daniel Stolpe, Yannis Kommana <br> *RDF: Semantic Web Scripting*
 
+<lively-import src="../_navigation.html"></lively-import>
 
 [presentation](presentation.pdf)
 
-
-![Screenshot](https://drive.google.com/uc?export=download&id=0B4ixDwTSrrqUNThwSy1qTEJuc0U)
+![](figure.png)
 
 ## Abstract:
 Library for providing an RDFa-Viewer to easily display and store RDFa data on a website and an RDFa-API to load data and query that data.
 Sample application for defining ratings for movies from IMDB and rottentomatoes and merging duplicates with data from wikidata.
+
+### Screencast
+
+<video width=640 controls><source src="screencast.mp4" type="video/mp4"></video>
 
 ### Links
 * Repo-Link: https://github.com/LivelyKernel/lively4-core/tree/rdfa

@@ -1,7 +1,4 @@
-# Gruppe 1: Jonas Chromik - VivideJS
-
-
-
+# Project 1: Jonas Chromik - VivideJS
 
 - [presentation](VivideJS.pdf)
 
@@ -34,7 +31,7 @@ As the project grows and interfaces become definite, tests become significantly 
 
 ## Screencast
 
-<video autoplay controls><source src="screencast.mp4" type="video/mp4"></video>
+<video controls><source src="screencast.mp4" type="video/mp4"></video>
 
 
 ## Proposal

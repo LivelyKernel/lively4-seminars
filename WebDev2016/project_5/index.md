@@ -1,5 +1,6 @@
-# Jakob Reschke,  Marianne Thieffry -- COP: ContextJS 2.0
+# Project 5: Jakob Reschke,  Marianne Thieffry <br> *COP: ContextJS 2.0*
 
+<lively-import src="../_navigation.html"></lively-import>
 
 [presentation.pdf](presentation.pdf)
 

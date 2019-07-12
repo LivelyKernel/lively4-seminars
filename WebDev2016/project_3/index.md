@@ -1,5 +1,6 @@
-# Daniel Werner, Felix Wolff -- Indexing: Personal Cloud Search
+# Project 3: Daniel Werner, Felix Wolff <br> *Indexing: Personal Cloud Search*
 
+<lively-import src="../_navigation.html"></lively-import>
 
 [presentation](presentation.pdf)
 

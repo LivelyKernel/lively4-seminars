@@ -6,7 +6,20 @@ import { createNewFileButton } from "./utils.js"
 
 <link rel="stylesheet" type="text/css" href="utils.css">
 
-# Project 2: Sebastian Koall - Material Point Method
+# Project 2: Sebastian Koall <br> *Material Point Method*
+
+[**slides**](presentation.pdf)
+
+![](screenshot.png)
+
+## Screencast
+
+<video width=640 controls><source src="screencast.mp4" type="video/mp4"></video>
+
+
+
+## Notes
+
 
 <script>if (typeof createNewFileButton !== 'function') {var createNewFileButton = function f(){};}createNewFileButton("doc/PX2018/project_2/notices/", "New Notice", "notices");</script>
 <script>if (typeof createNewFileButton !== 'function') {var createNewFileButton = function f(){};}createNewFileButton("doc/PX2018/project_2/meeting/", "New Meeting", "meeting", true);</script>
@@ -40,3 +53,5 @@ mpm.animation.__proto__ = ElasticBodies.prototype
 
 // #TODO generalize this, to do a "become" 
 ```
+
+

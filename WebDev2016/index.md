@@ -2,60 +2,18 @@
 
 <lively-import src="../_navigation.html"></lively-import>
 
-The seminar will build upon the results of our previous [SWD Seminar](SWD15). 
-
-The development environment runs 100% in the browser and can therefore be served from static [github.io](https://livelykernel.github.io/lively4-core/draft/start.html?load=/README.md) pages and use GitHub, Dropbox and other Cloud APIs for persistence. 
-
-For faster development and other experiments we also have our very basic node.js service, that gives us more control during development. 
-
-We can for example navigate and edit [these wiki pages](https://github.com/LivelyKernel/Lively4/wiki/WebDev16) using the 
-[our server on lively-kernel.org](https://lively-kernel.org/lively4/lively4-core/draft/start.html?load=https://lively-kernel.org/lively4/Lively4.wiki/WebDev16.md)
-
-## Quick Manual for Lively4
-
-- CTRL+Click opens Halo to drag,copy, edit all DOM elements directly on a web page
-- CTRL+RightClick opens context menu with various tools...
-
-# Projects
-
-* [Project 1 -- Cache: Jan Graichen, Meike Baumgaertner](project_1/index.md)
-* [Project 2 -- RDF: Daniel Stolpe, Yannis Kommana](project_2/index.md)
-*	[Project 3 -- Indexing: Daniel Werner, Felix Wolff](project_3/index.md)
-* [Project 4 -- Services: Fabio Niephaus, Philipp Otto](project_4/index.md)
-* [Project 5 -- COP: Jakob Reschke,  Marianne Thieffry](project_5/index.md)
-* [Project 6 -- AExpr: Timo Djuerken, Philipp Pajak](project_6/index.md)
-
-# Getting Started
-
-## Basic Lively4 development workflow:
-
-- a) Go to https://lively-kernel.org/lively4/lively4core/draft/start.html
-- b) Play around with objects and in workspace 
-  - Ctrl-Left/Right Click for Halo and context menu
-- c) Use tools to browse and change modules and templates
-- d) Open Sync tool and log with github account 
-- e) Press sync to update your instance and commit changes
-
-## Advanced Lively4: 
-
-- Work in different branches under https://livelykernel.org/lively4
-- Try out serverless variant   
-  - https://livelykernel.github.io/lively4-core/draft/start.html?load=https://lively4//
-- Install your own lively4-server
+<link rel="stylesheet" type="text/css" href="../seminars.css" />
 
 
-## Development Links
+[**Topics Slides**](WebDev16.pdf)
 
-- Github Projects: 
-  - https://github.com/livelykernel/lively4-core 
-  - https://github.com/LivelyKernel/lively4-server (optional) 
-  - https://github.com/LivelyKernel/lively4-chrome-loader (optional)
-- Github Wiki 
-  - https://github.com/LivelyKernel/Lively4/wiki/WebDev16
-- Deployed on github.io: 
-  - https://livelykernel.github.io/lively4-core/draft/start.html?load=https://lively4/README.md
-- Deployed on lively-kernel.org: 
-  - https://lively-kernel.org/lively4/lively4-core/draft/start.html
+- [Project 1](project_1/index.md) <br> Jan Graichen, Meike Baumgaertner<br> *Cache*  ![](project_1/figure.png){.thumb} {.project .lively4}
+- [Project 2](project_2/index.md) <br> Daniel Stolpe, Yannis Kommana<br> *RDF*   ![](project_2/figure.png){.thumb} {.project .lively4}
+-	[Project 3](project_3/index.md) <br> Daniel Werner, Felix Wolff<br> *Indexing*   ![](project_3/figure.png){.thumb} {.project .lively4}
+- [Project 4](project_4/index.md) <br> Fabio Niephaus, Philipp Otto<br> *Services*   ![](project_4/figure.png){.thumb} {.project .lively4}
+- [Project 5](project_5/index.md) <br> Jakob Reschke,  Marianne Thieffry<br> *COP* ![](project_5/figure.png){.thumb} {.project .lively4}
+- [Project 6](project_6/index.md) <br> Timo Djuerken, Philipp Pajak<br> *AExpr*  ![](project_6/figure.png){.thumb} {.project .lively4}
 
 
-
+<lively-import src="../_logo.html"></lively-import>
+<lively-import src="../_footer.html"></lively-import>

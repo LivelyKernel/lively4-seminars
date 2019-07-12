@@ -1,4 +1,4 @@
-# Marcel Jankrift, Benjamin Feldmann - Lively4 App
+# Project 7: Marcel Jankrift, Benjamin Feldmann - Lively4 App
 
 
 ## Abstract

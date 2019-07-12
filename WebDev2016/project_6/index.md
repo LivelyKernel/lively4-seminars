@@ -1,4 +1,6 @@
-# Timo Djürken, Philipp Pajak	-- AExpr: Active Expressions
+# Project 6: Timo Djürken, Philipp Pajak	<br> *AExpr: Active Expressions*
+
+<lively-import src="../_navigation.html"></lively-import>
 
 [presentation](presentation.pdf)
 

@@ -2,28 +2,23 @@
 
 <lively-import src="../_navigation.html"></lively-import>
 
-[Topics](WebDev1718.pdf)
+<link rel="stylesheet" type="text/css" href="../seminars.css" />
 
-- [Project 1 Jonas Chromik - Vivide/JS](project_1/index.md)
-- [Project 2 David Rauch, Sebastian Koall - Offline First](project_2/index.md)
-- [Project 3 Henriette Dinger, Sebastian Kliem - PDF Annotator](project_3/index.md)
-- [Project 4 Toni Stachewicz, Niklas Hoffmann - Handwriting Recognition](project_4/index.md)
-- [Project 5 Jonas Keutel, Cornelius Hagmeister - Scripting Cloud Data Flow](project_5/index.md)
-- [Project 6 Siegfried Horschig, Theresa Zobel - Semantic Source Code Navigation](project_6/index.md)
-- [Project 7 Marcel Jankrift, Benjamin Feldmann - Lively4 App](project_7/index.md)
-- [Project 8 Adrian Sieber -  Projectional Editing](project_8/index.md) 
+[**Topics Slides**](WebDev1718.pdf)
 
 
 
-## Dates
 
-- Project 1 -- 30.1.
-- Project 2 -- 30.1.
-- Project 4 -- 30.1. 
-- Project 7 -- 30.1.
-- Project 5 -- 6.2
-- Project 3 -- 6.2
-- Project 6 -- 6.2
-- Project 8 -- 6.2
+- [Project 1](project_1/index.md) <br>Jonas Chromik <br> *Vivide/JS* <br> ![](project_1/screenshot.png){.thumb} {.project .lively4}
+- [Project 2](project_2/index.md) <br>David Rauch, Sebastian Koall <br> *Offline First* <br> ![](project_2/figure.png){.thumb} {.project .lively4}
+- [Project 3](project_3/index.md) <br>Henriette Dinger, Sebastian Kliem <br> *PDF Annotator*  <br> ![](project_3/pdf_annotator.png){.thumb} {.project .lively4}
+- [Project 4](project_4/index.md) <br>Toni Stachewicz, Niklas Hoffmann <br> *Handwriting Recognition* <br> ![](project_4/screenshot.jpg){.thumb} {.project .lively4}
+- [Project 5](project_5/index.md) <br>Jonas Keutel, Cornelius Hagmeister <br> *Scripting Cloud Data Flow*  <br> ![](project_5/figure.png){.thumb} {.project .lively4}
+- [Project 6](project_6/index.md) <br> Siegfried Horschig, Theresa Zobel <br> *Semantic Source Code Navigation* <br> ![](project_6/screenshot.png){.thumb} {.project .lively4}
+- [Project 7](project_7/index.md) <br>Marcel Jankrift, Benjamin Feldmann <br> *Lively4 App* <br> ![](project_7/screenshot.png){.thumb} {.project .lively4}
+- [Project 8](project_8/index.md) <br>Adrian Sieber <br>  *Projectional Editing* <br> ![](project_8/screenshot.png){.thumb} {.project .lively4}
 
+<p style="clear:left"></p>
 
+<lively-import src="../_logo.html"></lively-import>
+<lively-import src="../_footer.html"></lively-import>

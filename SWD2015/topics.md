@@ -1,10 +1,10 @@
 # SWD15 Projects
 
-[Kickoff Seminar Slides HPI, 2015](https://onedrive.live.com/redir?resid=D333AEE656452F8B!232342&authkey=!AIOfSOHdhvxonI0&ithint=file%2cpptx)
+[Kickoff Seminar Slides HPI, 2015](SWD15_Kickoff.pdf) [onedrive](https://onedrive.live.com/redir?resid=D333AEE656452F8B!232342&authkey=!AIOfSOHdhvxonI0&ithint=file%2cpptx)
 
-- [SWD15 Project1: Thin Morphic on HTML5](SWD15_Project1)
-- [SWD15 Project2: Persistent HTML DOM](SWD15_Project2)
-- [SWD15 Project3: Live Object Editor](SWD15_Project3)
+- [SWD15 Project1: Thin Morphic on HTML5](project1.md)
+- [SWD15 Project2: Persistent HTML DOM](project2.md)
+- [SWD15 Project3: Live Object Editor](project3.md)
 
 # Other Topics (not core, but nice to have)
 

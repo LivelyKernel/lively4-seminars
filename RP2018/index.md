@@ -5,3 +5,7 @@
 
 
 - [VivideJS](vivide-js/index.md)
+
+
+<lively-import src="../_logo.html"></lively-import>
+<lively-import src="../_footer.html"></lively-import>

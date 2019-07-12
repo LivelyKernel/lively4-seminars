@@ -1,22 +1,21 @@
 # RE 2018 - Reverse Engineering Seminar (HPI)
 
 <lively-import src="../_navigation.html"></lively-import>
+<link rel="stylesheet" type="text/css" href="../seminars.css" />
 
-- [description](description.md)
-- [topics](RE18_Topics.pdf)
-- [assignments](assignments.md)
+[**description**](description.md) [**topics**](RE18_Topics.pdf) [**assignments**](assignments.md)
 
 ## Projects
 
-- [Project 1: Eva Krebs, Christian Flach - Jupyter Notebooks in Squeak/Smalltalk](project_1/index.md)
-- [Project 2: Florian Henschel, Erik Brendel - Categorizing Message Categories](project_2/index.md)
-- [Project 3: Stephan Lutz, Martin Stamm - Why and Why Not Questions](project_3/index.md)
-- [Project 4: Marcus Konrad, Martin Fischer - Stroposcoping for non-graphical Objects](project_4/index.md)
-- [Project 5: Friedrich Schoene,  Victor Künstler - Github-Explorer ](project_5/index.md)
-- [Project 6: Noel Danz, Raoul Baron - Recovering Data](project_6/index.md)
-- [Project 7: Jonas Beyer - The Program according to Garp](project_7/index.md)
-- [Project 8: Falco Duersch - SSL Support in GraalSqueak](project_8/index.md)
-- [Project 9: Melanie Schneider - Lively4 Semantic Code Overview](project_9/index.md)
+- [Project 1: Eva Krebs, Christian Flach - Jupyter Notebooks in Squeak/Smalltalk](project_1/index.md)  <br> ![](project_1/screenshot.png){.thumb} {.project}
+- [Project 2: Florian Henschel, Erik Brendel - Categorizing Message Categories](project_2/index.md)  <br> ![](project_2/screenshot.png){.thumb} {.project}
+- [Project 3: Stephan Lutz, Martin Stamm - Why and Why Not Questions](project_3/index.md)  <br> ![](project_3/screenshot.png){.thumb} {.project}
+- [Project 4: Marcus Konrad, Martin Fischer - Stroposcoping for non-graphical Objects](project_4/index.md)  <br> ![](project_4/screenshot.png){.thumb} {.project}
+- [Project 5: Friedrich Schoene,  Victor Künstler - Github-Explorer ](project_5/index.md)  <br> ![](project_5/screenshot.png){.thumb} {.project}
+- [Project 6: Noel Danz, Raoul Baron - Recovering Data](project_6/index.md)  <br> ![](project_6/screenshot.png){.thumb} {.project}
+- [Project 7: Jonas Beyer - The Program according to Garp](project_7/index.md)  <br> ![](project_7/screenshot.png){.thumb} {.project}
+- [Project 8: Falco Duersch - SSL Support in GraalSqueak](project_8/index.md)  <br> ![](project_8/screenshot.png){.thumb} {.project}
+- [Project 9: Melanie Schneider - Lively4 Semantic Code Overview](project_9/index.md)  <br> ![](project_9/screenshot.png){.thumb} {.project}
 
 
 ## Development Links
@@ -50,9 +49,5 @@ In this seminar, the participants will work in teams to develop reverse engineer
 [1] Chikofsky, E. J.; Cross, J. H. (January 1990). "Reverse engineering and design recovery: A taxonomy". IEEE Software. 7: 13–17. doi:10.1109/52.43044.
 
 
-
-
-<!-- LOGO and FOOTER -->
-![](../hpi_logo_text.png){style="position:absolute; height: 60px; top: 10px; right: 20px; background: white"} 
-
-*[Software Architecture Group](https://www.hpi.uni-potsdam.de/hirschfeld/) 2015-present*
+<lively-import src="../_logo.html"></lively-import>
+<lively-import src="../_footer.html"></lively-import>

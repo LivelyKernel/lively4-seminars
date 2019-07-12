@@ -46,4 +46,5 @@ h1, h2, h3 {
 ![](project5.md/screenshot.png){.thumb}
 
 
-
+<lively-import src="../_logo.html"></lively-import>
+<lively-import src="../_footer.html"></lively-import>

@@ -1,4 +1,4 @@
-# Adrian Sieber - Projectional Editing
+# Project 8: Adrian Sieber - Projectional Editing
 
 [presentation.pdf](presentation.pdf)
 

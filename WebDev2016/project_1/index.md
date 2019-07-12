@@ -1,7 +1,8 @@
-# Jan Graichen, Meike Baumgaertner -- Cache: Change-based Persistence 
+# Project 1: Jan Graichen, Meike Baumgaertner <br> *Cache: Change-based Persistence*
+
+<lively-import src="../_navigation.html"></lively-import>
 
 [presentation](presentation.ppdf)
-
 
 ![](figure.png)
 

@@ -1,6 +1,6 @@
 <link rel="stylesheet" type="text/css" href="../style.css">
 
-# Siegfried Horschig, Theresa Zobel - Semantic Source Code Navigation
+# Project 6: Siegfried Horschig, Theresa Zobel - Semantic Source Code Navigation
 
 
 [presentation](presentation.pdf)

@@ -14,19 +14,19 @@ To prevent caching of large amounts of data, it is possible to selectively cache
 
 ![](figure.png)
 
-<video autoplay controls><source src="screencast.mp4" type="video/mp4"></video>
+<video controls><source src="screencast.mp4" type="video/mp4"></video>
 
 ## Project Description
 
 Your domain: [Service Worker](https://lively-kernel.org/lively4/lively4-core/swx-loader.js)
 
-Tasks:
+### Tasks:
 
 - Intercept every stat, read, write, and delete request
 - Serve from cache if offline
 - Write cached write requests once reconnected
 
-Zu beachten:
+### Zu beachten:
 
 - Transparent to mounted file systems
 - Later:

@@ -15,3 +15,7 @@
   - [https://github.com/livelykernel/lively4-core](https://github.com/livelykernel/lively4-core)
   - [https://lively-kernel.org/lively4/lively4-core/start.html](https://lively-kernel.org/lively4/lively4-core/start.html)
 
+
+
+<lively-import src="../_logo.html"></lively-import>
+<lively-import src="../_footer.html"></lively-import>

@@ -2,29 +2,17 @@
 
 <lively-import src="../_navigation.html"></lively-import>
 
-- [SWD15Topics](SWD15Topics)
-- [Whiteboards](SWD15Whiteboards)
+[**Topics**](topics.md) [**Whiteboards**](whiteboards.md)
 
-## Project 1: Thin Morphic 
-Alternative: Persistent DOM | Live Object Editor | Remote Lively IDE
-- Astrid Thomschke
-- Daniel Werner
-- Felix Wolff
+## [Project 1: Astrid Thomschke, Daniel Werner, Felix Wolff  - *Thin Morphic*](project1.md)
 
-## Project 2: Shadow DOM Persistence
-- Jan Lindemann
-- Daniel Stolpe
+## [Project 2: Jan Lindemann, Daniel Stolpe - *Shadow DOM Persistence*](project2.md)
 
-## Project 3: ObjectEditor
-Alternative: DOM-Manipulation  Morphic
-- Philipp Pajak 
-- Timo Djürken 
+## [Project 3: Philipp Pajak, Timo Djürken - *ObjectEditor*](project3.md)
 
-## Project 4: Unified backend API
-Alternative:  (Thin Morphic on HTML5 / WebComponents as Morphs)
-- Meike Baumgaertner
-- Jan Graichen
+## [Project: 4 Meike Baumgaertner, Jan Graichen - *Unified backend API*](project1.md)
 
 
 
-
+<lively-import src="../_logo.html"></lively-import>
+<lively-import src="../_footer.html"></lively-import>

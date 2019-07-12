@@ -1,5 +1,8 @@
-# Fabio Niephaus, Philipp Otto	-- Services: Access Web Services
+# Project 4: Fabio Niephaus, Philipp Otto	<br> *Services: Access Web Services*
 
+<!-- #META how to link to persons? #FabioNiephaus @FabioNiephaus person://Fabio%20Niephaus -->
+
+<lively-import src="../_navigation.html"></lively-import>
 
 [presentation.pdf](presentation.pdf)
 
