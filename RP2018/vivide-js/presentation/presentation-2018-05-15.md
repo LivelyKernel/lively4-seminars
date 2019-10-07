@@ -1,14 +1,14 @@
 <!-- markdown-config presentation=true -->
 
 <script>
-import { openBrowser, openComponent } from "doc/PX2018/project_2/utils.js"
+import { openBrowser, openComponent } from "../../../PX2018/project_2/utils.js"
 
 let presentationSize = "standard-vga";
 </script>
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/utils.css">
-<link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/presentation.css">
+<link rel="stylesheet" type="text/css" href="../../../PX2018/project_2/utils.css">
+<link rel="stylesheet" type="text/css" href="../../../PX2018/project_2/presentation.css">
 
-<link rel="stylesheet" type="text/css" href="doc/PX2018/style.css" />
+<link rel="stylesheet" type="text/css" href="../../../PX2018/style.css" />
 <link rel="stylesheet" type="text/css" href="src/client/lively.css" />
 <link rel="stylesheet" type="text/css" href="templates/livelystyle.css" />
 
@@ -31,37 +31,6 @@ let presentationSize = "standard-vga";
   
 </style>
 
-<script>
-let presentation = lively.query(this, "lively-presentation");
-let presentButton = document.createElement('button');
-presentButton.innerHTML = 'present';
-presentButton.addEventListener("click", () => {
-  let slides = presentation.querySelectorAll('.lively-slide');
-  
-  slides.forEach(slide => {
-    slide.className += ' fullscreen-' + presentationSize;
-  })
-  presentButton.style.display = 'none';
-  prevButton.style.display = 'none';
-  nextButton.style.display = 'none';
-})
-
-if (presentation && presentation.slides) {
-  presentation.slides().forEach(ea => {
-    var img = document.createElement("img")
-    img.classList.add("logo")
-    img.src="https://lively-kernel.org/lively4/lively4-jens/doc/PX2018/media/hpi_logo.png" 
-    img.setAttribute("width", "50px")
-    ea.appendChild(img)
-
-    var div = document.createElement("div")
-    div.classList.add("page-number")
-    ea.appendChild(div)
-  });
-}
-
-presentButton
-</script>
 
 <div class="title-frontpage">
   RP 2018: Seminar on Reactive Programming<br />- Hierarchical Data and Asynchronicity for VivideJS -
@@ -75,16 +44,6 @@ presentButton
   Software Architecture Group <br>Hasso Plattner Institute<br> University of Potsdam, Germany
 </div>
 
-<script>
-  var button = document.createElement("button")
-  button.textContent = "print"
-  button.onclick = async () => {
-   var presentation = lively.query(this, "lively-presentation")
-   presentation.print()
-  }
-  button.style = "position: absolute; bottom: 10px; left: 10px"
-  button
-</script>
 
 
 --- 
@@ -141,7 +100,7 @@ import { createScriptEditorFor, initialScriptsFromTemplate } from 'src/client/vi
     vivideScriptEditor.setScripts(scripts);
   });
   
-  return <div><link rel="stylesheet" type="text/css" href="doc/PX2018/project_2/presentation.css" /><div class={containerClass}><div class="vivide-view">{vivideView}</div><div class="vivide-script-editor">{vivideScriptEditor}</div></div></div>;
+  return <div><link rel="stylesheet" type="text/css" href="../../../PX2018/project_2/presentation.css" /><div class={containerClass}><div class="vivide-view">{vivideView}</div><div class="vivide-script-editor">{vivideScriptEditor}</div></div></div>;
 })()
 </script>
 

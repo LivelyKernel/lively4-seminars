@@ -1,17 +1,16 @@
 # SWD 2015 Seminar (HPI)
-
+<link rel="stylesheet" type="text/css" href="../seminars.css" />
 <lively-import src="../_navigation.html"></lively-import>
+
 
 [**Topics**](topics.md) [**Whiteboards**](whiteboards.md)
 
-## [Project 1: Astrid Thomschke, Daniel Werner, Felix Wolff  - *Thin Morphic*](project1.md)
 
-## [Project 2: Jan Lindemann, Daniel Stolpe - *Shadow DOM Persistence*](project2.md)
-
-## [Project 3: Philipp Pajak, Timo Djürken - *ObjectEditor*](project3.md)
-
-## [Project: 4 Meike Baumgaertner, Jan Graichen - *Unified backend API*](project1.md)
-
+- [Project 1](project1.md) <br> Astrid Thomschke, Daniel Werner, Felix Wolff <br> *Thin Morphic*<br> ![](project1.md/screenshot.png){.thumb} {.project}
+- [Project 2](project2.md)<br> Jan Lindemann, Daniel Stolpe <br> *Shadow DOM Persistence* <br> ![](project2.md/screenshot.png){.thumb} {.project}
+- [Project 3](project3.md)<br> Philipp Pajak, Timo Djürken <br> *ObjectEditor* <br> ![](project3.md/screenshot.png){.thumb} {.project}
+- [Project 4](project4.md)<br> Meike Baumgaertner, Jan Graichen <br> *Unified backend API* <br> ![](project4.md/figure.png){.thumb} {.project}
+                                                                                            
 
 
 <lively-import src="../_logo.html"></lively-import>

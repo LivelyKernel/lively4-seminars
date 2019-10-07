@@ -9,9 +9,9 @@ Classic breakpoint debuggers, however, typically only allow programmers to move 
 To take these burdens off of the programmer, the Lively Whyline employs a post-mortem approach to debugging. Not only can every part of the execution be inspected without any temporal restrictions, but the Whyline also provides tools to follow data and control flow dependencies, effectively reducing programmers' search space when investigating the root cause of failures.
 
 ## An Example
-A screencast with some of the basic functionality implemented can be found [here](screencast-whyline.mp4).
+A screencast with some of the basic functionality implemented can be found [here](screencast.mp4).
 ## Features
-![](screenshot-whyline.png)
+![](screenshot.png)
 #### Javascript Tracing
 Many of the Javascript language's elements ([ES2018](http://ecma-international.org/ecma-262/)) are traceable on an AST node level. We provide a list of missing lanugage features and issues we know of down below. Everything else we probably just haven't seen break yet.
 #### Trace View

@@ -2,6 +2,8 @@
 
 [**presentation**](presentation.pdf)
 
+![](screenshot.png)
+
 - Plain File Editor vs. System Code Brower (SCB)
 - Editing files vs. behavior in objects
 - Inspecting and editing state vs. behavior

@@ -1,11 +1,11 @@
 # PX 2018 Seminar
 
 
+<link rel="stylesheet" type="text/css" href="../seminars.css" />
 <lively-import src="../_navigation.html"></lively-import>
 
 [**Topics**](topics.md)
 
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
 
 - [Project 1: <br> Johannes Schneider, Julian Weise<br>*Blockchain*](project_1/index.md)<br> ![](project_1/screenshot.png){.thumb} {.project .lively4}
 - [Project 2: <br>Sebastian Koall<br>*Material Point Method*](project_2/index.md)<br> ![](project_2/screenshot.png){.thumb} {.project .lively4}
