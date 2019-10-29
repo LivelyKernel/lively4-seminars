@@ -152,6 +152,7 @@ By using our live collaborative development environment, [Lively4](https://livel
     - current AST explorer is inspector on minified AST.... names/types are compiled away.... change this
   - Topic: Use Babel AST in ESLint   
   - Topic: Projectional Text Editing, augment Text Editor with Projectional Editing Capabilities @onsetsu 
+  - AST low memory binary standoff representation....
 - X Ray
   - Topic: X Ray traces behavior
     - Fast Lightweight Tracing
