@@ -1,10 +1,18 @@
 # PX 2019 Seminar (HPI)
 
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+
+<style data-src="../seminars.css"></style>
+
 
 <lively-import src="../_navigation.html"></lively-import>
 
 [topics](topics.md)  [assignments](assignemtns.md)
+
+<!--
+
+Markus Brand; Merlin Haye; Florian Henschel; Wilhelm Friedemann; Stephan Lutz; Ulrike Bath; Maximilian Goetz; Josias Uhlmann; Stefan Reschke; Teresa Lasarow; Kolya Opahle; Milan Proell; Jonas Grunert;  Jan Ehmueller;  Hendrik Tjabben
+
+-->
 
 - [Project 1: <br> Markus Brand, Merlin Haye, Florian Henschel<br>*An AST-aware Textual Code Editor*](project_1/index.md)  ![](project_1/screenshot.png){.thumb} {.project}
 - [Project 2: <br> Wilhelm Friedemann, Stephan Lutz <br>*AST Explorer*](project_2/index.md) ![](project_2/screenshot.png){.thumb}  {.project}

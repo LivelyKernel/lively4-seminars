@@ -1,6 +1,6 @@
 # RP WS 2019/20 Seminar (HPI)
 
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+<style data-src="../seminars.css"></style>
 
 <lively-import src="../_navigation.html"></lively-import>
 

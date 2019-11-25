@@ -1,5 +1,6 @@
 # SWD 2015 Seminar (HPI)
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+
+<style data-src="../seminars.css"></style>
 <lively-import src="../_navigation.html"></lively-import>
 
 

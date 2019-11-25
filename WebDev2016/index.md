@@ -1,8 +1,7 @@
 # WebDev 2016 <br> HPI Seminar on evolving the Lively4 <br>Web-based Development Environment
 
 <lively-import src="../_navigation.html"></lively-import>
-
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+<style data-src="../seminars.css"></style>
 
 
 [**Topics Slides**](WebDev16.pdf)

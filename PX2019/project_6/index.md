@@ -1,10 +1,11 @@
 # Project 6: <br> Jonas Grunert<br>*MLE-Development Umgebung im Browser*
 
-
 ![](graalvm.png)
 
-Main Ideas:  
-Using websockets to communicate efficiently iwth the server:  
+
+## Main Ideas:  
+
+Using websockets to communicate efficiently with the server:  
   Libraries which may be used:  
     1. **[socket.io](https://socket.io/)** will be used because of ease and distribution of framework
     2. sockjs - [node](https://github.com/sockjs/sockjs-node) and [browser](https://github.com/sockjs/sockjs-client)  
@@ -12,19 +13,22 @@ Using websockets to communicate efficiently iwth the server:
 Using many different widgets:  
   Required:  
     1. Code Editor  
-    2. Result Presenter  
+    2. Function Executor  
     3. Table Presenter  
     4. SQL Editor  
   Additional:  
     5. Test Case Editor  
     6. Database Inspector  
     7. Generated Code Shower  
+  Optional:  
+    8. Method Shower (with Documentation) 
+    9. Python interaction 
+    10. Benchmark runner  
   Not in Scope:  
-    8. Database Explorer  
-    9. Stacktrace  
-    10. AST Explorer
-    
-    
+    11. Database Explorer  
+    12. Stacktrace  
+    13. AST Explorer  
+        
 Widget Blueprints:  
 Table Presenter:  
 let data = [[1, 'Bond', 'James Bond'],[2, 'Alex', 'Just Alex']]  
@@ -56,3 +60,13 @@ let data = [[1, 'Bond', 'James Bond'],[2, 'Alex', 'Just Alex']]
   bdy.appendChild(tbl);
   bdy
 </script>
+
+
+Solutions:
+Socket minified in project 6 ablegen, self contained  
+Webcomponent sauber nutzen  
+Typescript in LIvely?  
+
+
+    
+    

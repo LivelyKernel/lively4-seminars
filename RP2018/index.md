@@ -1,7 +1,7 @@
 # Reactive Programming SS2018
 
 
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+<style data-src="../seminars.css"></style>
 <lively-import src="../_navigation.html"></lively-import>
 
 ## Projects

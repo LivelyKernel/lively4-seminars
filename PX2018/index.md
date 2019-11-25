@@ -1,7 +1,7 @@
 # PX 2018 Seminar
 
 
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+<style data-src="../seminars.css"></style>
 <lively-import src="../_navigation.html"></lively-import>
 
 [**Topics**](topics.md)

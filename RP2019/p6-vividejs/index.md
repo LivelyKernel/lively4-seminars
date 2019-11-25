@@ -19,3 +19,12 @@
 ## Problems
  - No tutorial at all. The readings give a fine overview on how thing work, but not a detailed description oh ow to begin. Big first showstopper is finding a documentation on connecting different parts.
  - Difficulties to add new steps and overall getting started.
+ 
+
+## Solutions
+- Object Inspector
+- Halo Search and Recommendations based on Data type
+- Scripts and applications should be saved
+
+## Progress at 17.11.2019
+Object Inspection works and would have bindings for subselection. Unfortunately currently missing some information to make the changes visually understandable.

@@ -1,6 +1,6 @@
 # RE 2018 - Reverse Engineering Seminar (HPI)
 
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+<style data-src="../seminars.css"></style>
 <lively-import src="../_navigation.html"></lively-import>
 
 [**description**](description.md) [**topics**](RE18_Topics.pdf) [**assignments**](assignments.md)

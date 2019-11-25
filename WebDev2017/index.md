@@ -2,7 +2,7 @@
 
 <lively-import src="../_navigation.html"></lively-import>
 
-<link rel="stylesheet" type="text/css" href="../seminars.css" />
+<style data-src="../seminars.css"></style>
 
 [**Topics Slides**](WebDev1718.pdf)
 

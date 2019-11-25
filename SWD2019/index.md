@@ -1,5 +1,6 @@
 # SWD 2019 Seminar (HPI)
 
+<style data-src="../seminars.css"></style>
 <lively-import src="../_navigation.html"></lively-import>
 
 - [project ideas](project_ideas.md)
