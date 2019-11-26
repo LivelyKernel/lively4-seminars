@@ -100,52 +100,126 @@ list
 </script>
 
 ---
+# Lively4
+
+- Interactive
+- Live
+- Halos
+
+<img src="./media/halo.png" alt="drawing" width="900"/>
+
+---
+# Fabrik
+
+<img src="./media/Fabrik.png" alt="drawing" width="400"/>
+
+- 1988
+
+---
+# Lively Fabrik Browser
+
+<img src="./media/FabrikBrowser.png" alt="drawing" width="600"/>
+
+---
 # Lively Connectors
 
-![](media/test.mp4)
-<!--![](media/screenshot.png)-->
+<embed src="./media/connectors.mp4" autostart="false" height="500" width="800" />
 
-## Goals:
+- https://lively-web.org/
 
-- Implement a unidirectional dataflow mechanism for properties of graphical objects using active expressions
-- Design and implement a graphical user interface to interactively create dataflow and event connections
-- Persist created connections into existing PartsBin
-- Create a non-trivial example application using connectors
+---
+# Lively Connectors
+
+<embed src="./media/120313_TallyConnections.mp4" autostart="false" height="500" width="800" />
+
+---
+
+# Lively Connectors
+
+<embed src="./media/120313_VisualizeConnections.mp4" autostart="false" height="500" width="800" />
+
+---
+# Lively Connectors
+
+<embed src="./media/test.mp4" autostart="false" height="500" width="800" />
+
+---
+# Lively PartsBin
+
+<img src="./media/PartsBin.png" alt="drawing" width="800"/>
+
+---
+
+# Concepts
+
+- Objects in world / morphs
+  - Source
+  - Target
+  - Their respective properties
+  - "Combine widgets into bigger widget"
+- Connection
+  - Connects source and target
+  - Reactive
+  - Drawable/Debuggable?
+- Connection hub / editor
+
+---
+# Lively4 Connectors
+
+## Add a way to create connections in Lively4
+
+- Add connector ui element into domain (= halos)
+- Selecting source, target, and their properties
+- Editing/Deleting connections
+- Debugging/Visualizing connections
+- Save new widgets (PartsBin?)
+
+---
+# Lively4 Connectors
+
+## Reactive?
+- Dataflows, user interaction, visual
+- Active Expressions
+- Events
 
 ---
 # Demo
 
+<script>
+  let slider = lively.query(this, "#slider");
+  let number  = lively.query(this, "#number");
+  debugger
+  let rectangle  = lively.query(this, "#rectangle");
+  let ae1 = aexpr(() => slider.value);
+  ae1.onChange(svalue => rectangle.style.width= svalue+"pt")
+  ae1.onChange(svalue => number.innerHTML = svalue)
+  'Use the slider'
+</script>
+
+<div id="rectangle" class="lively-content" style="width: 100pt; height: 100px; border: 1px solid black; position: relative; background-color: rgba(40, 40, 80, 0.5);"></div>
+
+<div id="number">
+ 42
+</div>
+
+<input id="slider" type="range"> </input>
+
 
 ---
-# Implementation
-##  Halo Item
+# Current state
 
-- New Halo-Item-class
-- Save source, source property, target, and target property
-- Click Handling?
-- Maybe diagram?
-
----
-## Connections
-
-- Own class
-- Hub
-- Editing
-- Debugging, drawing?
+- New Connectors Halo item
+- Selecting source and target as well as their properties
+- First Connections work
 
 ---
 # Next Steps
- 
-- Finish Hub & Connection Editing
-- Better UI for custom connections
-- Whitelist of properties
-- More Debugging Options
-- Example application / use case
 
----
-# Future Work
-
-- More Dynamic whitelist of properties
+- Improved connection creation
+  - Whitelist (or similiar) of often used and available properties
+  - Improved custom properties/connections
+- Connection hub (with connection editing / removing)
+- More connection debugging (e.g. visualizations)
 - PartsBin
 
 ---
