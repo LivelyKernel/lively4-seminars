@@ -21,7 +21,6 @@
 - [Project 5: <br> Eva Krebs <br>*Lively4 Connectors*](p5-connectors/index.md) ![](p5-connectors/screenshot.png){.thumb} {.project}
 - [Project 6: <br> Jonas Grunert <br>*Composability and Reuse in VivideJS*](p6-vividejs/index.md) ![](p6-vividejs/screenshot.png){.thumb} {.project}
 - [Project X: <br> Tom Beckmann <br>*Example Tracing in Projectional Editors*](px-projectional-editor/index.md) ![](px-projectional-editor/screenshot.png){.thumb} {.project}
-- [Project 0: <br> Stefan Ramson <br>*Active Expression Cleanup*](p0-aexpr-cleanup.md)  ![](p0-aexpr-cleanup/screenshot.png){.thumb} {.project}
 
 
 <lively-import src="../_logo.html"></lively-import>

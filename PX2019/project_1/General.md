@@ -22,3 +22,4 @@
     - Problem: find start and end in {line, character} format
   - For a view: Mock it
   - ? Extracted Method in separate view
+- VS code plugins?

@@ -28,3 +28,8 @@
 
 ## Progress at 17.11.2019
 Object Inspection works and would have bindings for subselection. Unfortunately currently missing some information to make the changes visually understandable.
+
+## Notes
+Serialization of a script done like here: https://lively-kernel.org/lively4/lively4-core/src/client/vivide/vividescript.js,
+Saving for application in to the partsbin
+saving for scripts in script speichern

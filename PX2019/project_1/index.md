@@ -44,4 +44,31 @@ lively.allParents(that, undefined, true)
 
 - inline command: inline the value calculation of a variable into each of its occurrences.
   - -> opposite of extract into local
-- Check file type and notify the user
+- <span style="color:lime">done for now</span> Check file type and notify the user
+  - <span style="color:red">still open</span> working menu in md / html
+    - idea: find script tag our selection is in, generate AST + menu, update AST, text-replace script tag we're in
+    - problem: code that works across script tag boundaries (e.g., lib imports...) 
+
+
+### Parse HTML
+
+```javascript
+var html = `<div id="foo">bar</div><div id="bar">xxx</div><div></div>`
+
+var tmp = <div></div>
+tmp.innerHTML = html
+tmp.querySelectorAll("[id]").map(ea => ea.id)
+```
+
+F7
+
+```javascript
+(lively4url+"/start.html").fetchText()
+```
+
+```javascript
+get fileName() { return this.get('input#fileName'); }
+```
+
+UX: Possibility 1) in html: select code -> Alt+Enter Menu suggests ids to generate getters for -> select id -> codemirror opens codemirror with .js file and generated getter (potentially could move focus in this window!)  
+2) in js: provide list of all possible getters to generate from whole html file -> select id -> codemirror generates getter and jumps to its location
