@@ -29,7 +29,7 @@ Applikationen speichern zusätzlich zu den Skriptdaten folgende EIgenschaften:
 - Ids
 - Widget Typ
 
-Skripte speichern zusätzlich zu den SKriptdaten folgende Eigenschaften:
+Skripte speichern zusätzlich zu den Skriptdaten folgende Eigenschaften:
 - Name
 - Beschreibung
 - Schema der Asugangsdaten
@@ -51,7 +51,8 @@ Jegliche Benutzerinteraktionen zur Soeicherung oder dem Laden von solchen Artefa
 
 ## Einschränkungen des gewählten Ansatzes
 Serialisierung und Deserialiserung mit Hilfe von HTML wurde sogelassen, wie es war. Einige Edge Cases sind in der ENtwicklung des JSON-basierten Ansatzes zwar aufgetreten, wurden aber aufgrund der Zeit nicht bearbeitet. Ähnliche wurden die entwickelten Methoden für JSON nicht fehlerbereit gebaut. Da ausschließlich mit JSON basierten Dateien geabreitet wird, wurde kein Errorhandlingkonzept entwickelt oder implementiert. DAs JSON System ist deutlich fehlerresistenter als das HTML-basierte, trotz allem muss in beiden Fällen mit unerwarteten Fehlern gerechnet werden.  
-Als dynmaisch typisierte Sprache können die Vorschläge im Halo-Menü nur auf Basis einer besten Vermutung entstehen und können nicht gewährleistet werden, dass sie definitiv funktionieren werden. Zusätzlich ist da gewählte JSON basierte Format bislang nur innerhalb des Vivide Ökosytsems und nicht in Kombination mit anderen Livelykomponenten nutzbar.
+Als dynmaisch typisierte Sprache können die Vorschläge im Halo-Menü nur auf Basis einer besten Vermutung entstehen und können nicht gewährleistet werden, dass sie definitiv funktionieren werden. Zusätzlich ist da gewählte JSON basierte Format bislang nur innerhalb des Vivide Ökosytsems und nicht in Kombination mit anderen Livelykomponenten nutzbar.  
+Auch werden keine Skriptschritte zur Wiederverwendung freigegeben, da für diese die umgebenden Metainformationen besser sein müssen. Da einzelne Schritte sehr spezifische Operationen vornehmen müssen zusätzliche Informationen bereitgestellt werden um sie sinnvoll wiederverwenden zu können.
 
 ## Einstiegspunkte in den Code
 Im Ordner `src/client/vivide/scripts` finden sich alle relevanten Dateien. `Loading` ist für die Deserialisierung des Formates und `Saving` für die Serialiserung des Formates zuständig, das `Deleting` Modul und die Index.md sind rein verwalterische Module. Die Halomenüs finden sich unter `src/components/halo` als Webkomponenten mit den Namen `lively-halo-vivde-script-suggestion`, `lively-halo-vivde-save-script-item` und `lively-halo-vivde-save-application-item`.

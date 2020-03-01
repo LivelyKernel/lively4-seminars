@@ -15,3 +15,20 @@
 
 - Stefan Ramson and Robert Hirschfeld. *Active Expressions: Basic Building Blocks for Reactive Programming.* <Programming> 2017. ([pdf](https://www.hpi.uni-potsdam.de/hirschfeld/publications/media/RamsonHirschfeld_2017_ActiveExpressionsBasicBuildingBlocksForReactiveProgramming.pdf))
 - Andreas Zeller. *Why Programs Fail: A Guide to Systematic Debugging.* dpunkt 2005. (ask for book)
+
+
+## Documentation:
+
+We built a Graph structure capable of providing most information to find dependencies and embedded it into the [AST-Capabilities] of the Codemirror. For Documentation purposes we left the original [Dependencygraph] in Lively. 
+
+### Touched Files
+* 
+
+
+
+
+
+
+[Dependencygraph]:https://lively-kernel.org/lively4/lively4-stephelm/src/client/dependency-graph/graph.js
+
+[AST-Capabilities]:https://lively-kernel.org/lively4/lively4-stephelm/src/components/widgets/lively-code-mirror-ast-capabilities.js
