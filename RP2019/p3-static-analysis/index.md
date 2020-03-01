@@ -47,36 +47,36 @@ An other disadvantage is that we have to reimplement what the original implement
 ## Usage (currently only in CodeMirror Playground)
 
 ### See trigger of an Active Expression
- * click on Active Expression
+ * Click on Active Expression
  * Hit `Alt-a` 
- * all occurences that trigger the Active Expression are highlighted in orange
+ * All occurences that trigger the Active Expression are highlighted in orange
 ### See Active Expression triggered by a line of code
  * Number of Active Expressions triggered is shown in the extra gutter
- * Click on the number to see all Active Expressions
+ * Click on the number to see all Active Expressions triggered
  
 ## Features and Limitations
  
  ### Supported:
  * Any state(Variables) or calls(Callexpressions) that comes from higher scopes (dependencies)
  * Objects
- * Members (Membercalls)
+ * Member (Membercalls)
  * Any depth of circularity
+ * `This` - not explicitly supported but the current architecture is able to treat it as a normal Object
  
  ### NOT Supported
- * This - not explicitly supported but the current architecture is able to treat it as a normal Object
  * Computed Properties - static analysis cannot determine these before runtime
  * `delete` - the switch from some value to undefined is not found
- * circular call constructs, where a single Function is part of 2 or more circles (can be changed via `visited` and `returnVisited`).
- * irrelevant dependencies e.g. `aexpr(()=> {x + x; return y;})` `x` will be detected
- * execution order
- * leave the file scope
- * some not yet implemented expressions
+ * Circular call constructs, where a single Function is part of 2 or more circles (can be changed via `visited` and `returnVisited`).
+ * Irrelevant dependencies e.g. `aexpr(()=> {x + x; return y;})` `x` will be detected
+ * Execution order
+ * Leave the file scope
+ * Some not yet implemented expressions
 
 ## How does it work?
 The process is split into two steps - enrichment and collect step
 
 ### Enrichment see [Dependencygraph]>>enrich
-This is a preprocessing step, that is done once for the entire AST, It adds important and necessary information to the AST nodes by traversing the AST multiple times.
+This is a preprocessing step that is done once for the entire AST. It adds important and necessary information to the AST nodes by traversing the AST multiple times.
 These information are:
 * bindings for every Identifier (to collect constantViolations)
 * objects/leakingBindings for every Scope (to resolve the dependencies later on)
@@ -93,18 +93,18 @@ So you may see in addition to the traversals seemingly redundant recursion.
 
 ### Collect - [Dependencygraph]>>resolveDependencies
 
-After enriching once, we handle every query via recursion over every CallExpression of the current scope. Writing out the constantViolations for everything results in the wanted information.
+After enriching once, we handle every query via recursion over every CallExpression of the current scope. Writing out the `constantViolations` for everything results in the wanted information.
 
 ## Discussion
 
 ### DependencyGraph
-The amount of implemented dependency collection is enough to reveal some (hidden) dependencies the programmer forgot, (most often in our case) missed due to typos or did not see in general. The goal of revealing dependencies globally could not be reached due to the limitations of our approach. Furthermore we decided to rather show the correctly found dependencies than to show too many guesses of uncertain dependencies. And every dependency across a file is a guess. However there are still false negatives, either if the programmer does weird things (not sorry for that) or when the dependency collection stops too early due to ambiguous or unresolvable Expressions (sorry for that).
+The amount of implemented dependency collection is enough to reveal some (hidden) dependencies the programmer forgot, missed due to typos (most often in our case) or did not see in general. The goal of revealing dependencies globally could not be reached due to the limitations of our approach. Furthermore we decided to rather show the correctly found dependencies than to show too many wild guesses of uncertain dependencies. And every dependency across a file is a guess. However there are still false negatives, either if the programmer does weird things (not sorry for that) or when the dependency collection stops too early due to ambiguous or unresolvable Expressions (sorry for that).
 
 ### UI
-We think that AE support should be small and hidden until required. But when AE are allowed in a file the programmer should always be aware of that. We think that our tooling does that. There could be an indication WHY a dependency exists (stored in graph, but not visualized), but in our experience, they are usually pretty obvious if the programmer has AE as well as trigger.
+We think that AE support should be small and hidden until required. But when AE are allowed in a file the programmer should always be aware of that. We think that our tooling does that. There could be an indication WHY a dependency exists (stored in graph, but not visualized), but in our experience, they are usually pretty obvious if the programmer has the AE and the trigger as well.
 
 ### Overall
-Our project cannot provide SAFE and RELIABLE information for AE. Especially for cross-file dependencies, where the programmer is not aware of the existence of AE and his comprehension of the other file is not necessarily given, we fail our aim. But in our experience, if the file borders are choosen modular and the APIs are clear, crossfile dependencies are not required that much.  
+Our project cannot provide SAFE and RELIABLE information for AE. Especially for cross-file dependencies, where the programmer is not aware of the existence of AE and his comprehension of the other file is not necessarily given, we fail our aim. But in our experience, if the file borders are chosen modular and the APIs are clear, crossfile dependencies are not required that much.  
 
 
 [Dependencygraph(folder)]:https://lively-kernel.org/lively4/lively4-stephelm/src/client/dependency-graph/
