@@ -1,4 +1,4 @@
-# Project 1: <br> Markus Brand, Merlin Haye, Florian Henschel<br>*An AST-aware Textual Code Editor*
+# Project 1: <br> Markus Brand, Merlin de la Haye, Florian Henschel<br>*An AST-aware Textual Code Editor*
 
 Projectional Editors have advantages compared to traditional text-based editors, BUT: 
 1. Implementing and optimizing an AST-Editor requires huge amount of effort 
@@ -13,7 +13,7 @@ Apply benefits of AST-awareness onto standard text editor (Code Mirror)
 
 #### Important Components:
 - LivelyCodeMirror: [open](open://lively-code-mirror), [browse](browse://src/components/widgets/lively-code-mirror.js)
-- LivelyCodeMirrorASTCapabilities: [browse](browse://src/components/widgets/lively-code-mirror-ast-capabilities.js)
+- LivelyCodeMirrorASTCapabilities: [browse](browse://src/components/widgets/ast-capabilities.js)
 - [CodeMirror Docs](https://codemirror.net/doc/manual.html)
 - [Babel Handbook](https://github.com/jamiebuilds/babel-handbook/blob/master/translations/en/plugin-handbook.md#toc-paths)
 - [Babel Types Overview](https://babeljs.io/docs/en/babel-types)

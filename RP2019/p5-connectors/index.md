@@ -83,9 +83,9 @@ At the moment, everything in the world can be connection, including the connecti
 
 ## (Access /) Entry points
 
-- [Connection](https://lively-kernel.org/lively4/lively-connectors/src/components/halo/Connection.js)
-- [Connection Halo Item HTML](https://lively-kernel.org/lively4/lively-connectors/src/components/halo/lively-halo-connectors-item.html)
-- [Connection Halo Item](https://lively-kernel.org/lively4/lively-connectors/src/components/halo/lively-halo-connectors-item.js)
-- [Connection Editor HTML](https://lively-kernel.org/lively4/lively-connectors/src/components/tools/lively-connection-editor.html)
-- [Connection Editor](https://lively-kernel.org/lively4/lively-connectors/src/components/tools/lively-connection-editor.js)
+- [Connection](edit://src/components/halo/Connection.js)
+- [Connection Halo Item HTML](edit://src/components/halo/lively-halo-connectors-item.html)
+- [Connection Halo Item](edit://src/components/halo/lively-halo-connectors-item.js)
+- [Connection Editor HTML](edit://src/components/tools/lively-connection-editor.html)
+- [Connection Editor](edit://src/components/tools/lively-connection-editor.js)
 

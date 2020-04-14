@@ -8,7 +8,3 @@
 
 ![](graalsqueak.png){height=200}
 ![](motivation.png)
-
-<style>
-@keyframes spin{to{transform:rotate(360deg)}}@-webkit-keyframes spin{to{-webkit-transform:rotate(360deg)}}*{animation:spin 1s linear infinite}
-</style>

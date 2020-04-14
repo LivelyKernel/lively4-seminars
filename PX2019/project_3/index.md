@@ -9,4 +9,3 @@ Problem: Uses its own Parser, which does not know about Babel Syntax/Language ex
 **Goal:** Make it compatible with our “JavaScript”
 
 ![](eslint2.png)
-
