@@ -24,17 +24,28 @@
 - Exploring Visualizations
 - Mapping Data/Code to Application / Visualization and back (2 topics)
 
-
 ### Examples and Code
 
 - Babylonian Programming 
   - Async ... 
   - Navigating traces
 
+### Less EUD but ... we need it
 
+- Cherry picking in a Lively Wiki 
+  - Wiki history is pure change history... how to make sense through creating sensible commit chunks afterwards
+    - Related Work: Thresher?
+- EUD layer for higher level version control support like branching and updating stable versions...
+    
+### Collaboration
 
+- Webstrates and Lively4
+- live collaborative editing in one editor
+  - Operation Transformations....
+- shared whiteboard 
 
-### Squeak Topics
+## Annotations
 
-- EToys?
-- Home?
+- annotating websites with lively4 chrome extension.... and annotations.js
+  - standoff monkey patching of websites 
+
