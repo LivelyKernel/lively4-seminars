@@ -11,6 +11,7 @@
 - [RP 2018  - Reactive Programming Seminar](RP2018/)
 - [SWD 2019 - Software Design Seminar/](SWD2019/)
 - [RP 2019  - Reactive Programming Seminar](RP2019/)
+- [EUD 2020  - Enduser Development Seminar](EUD2020/)
 
 
 <script>

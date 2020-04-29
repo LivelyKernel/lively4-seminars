@@ -1,3 +1,15 @@
+<!-- markdown-config presentation=true -->
+
+<style data-src="https://lively-kernel.org/lively4/lively4-core/src/client/presentation.css"></style>
+
+<script>
+import Presentation from "src/components/widgets/lively-presentation.js"
+Presentation.config(this, {
+    pageNumbers: true,
+    logo: "https://lively-kernel.org/lively4/lively4-jens/media/lively4_logo_smooth_100.png"
+})
+</script>
+
 # EUD 2020
 # PX 2019 Seminar (HPI)
 
