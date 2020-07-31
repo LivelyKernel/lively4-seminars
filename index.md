@@ -9,7 +9,7 @@
 - [PX 2018 - Programming Experience Seminar](PX2018/)
 - [RE 2018 - Reverse Engineering Seminar](RE2018/)
 - [RP 2018  - Reactive Programming Seminar](RP2018/)
-- [SWD 2019 - Software Design Seminar/](SWD2019/)
+- [PX 2019 - Programming Experience Seminar](PX2019/)
 - [RP 2019  - Reactive Programming Seminar](RP2019/)
 - [EUD 2020  - Enduser Development Seminar](EUD2020/)
 
