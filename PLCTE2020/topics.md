@@ -3,6 +3,9 @@
 ![](topics.png)
 
 
+
+
+
 ## Stand-off Annotations for Source Code
 
 ![](annotations.png){style="float:right"}
@@ -25,8 +28,6 @@
   - … and break it
 
 
-
-
 ## Async Babylonian Examples in JavaScript 
 
 - Problem
@@ -46,6 +47,7 @@
   - Get familiar with instrumenting and tracing async code
   - Trace JavaScript Promises …. 
   - Combine both approaches
+
 
 
 ## Bidirectional Code-UI-Mapping 
