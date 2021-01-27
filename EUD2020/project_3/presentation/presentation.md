@@ -1,6 +1,7 @@
 <!-- markdown-config presentation=true -->
 
 
+<link rel="stylesheet" type="text/css" href="https://lively-kernel.org/lively4/lively4-core/demos/lively-simulation/presentation/style.css"  />
 <style data-src="./presentation.css"></style>
 
 <script>
