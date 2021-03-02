@@ -1,4 +1,6 @@
-# Project 2: Tom Braun <br> *Debugging Source Code Transformations *
+# Project 2: Tom Braun <br> *Debugging Source Code Transformations*
+
+[**Paper**](Braun_2021_DebuggenVonQuelltexttransformationen_PLCTE20.pdf) | [**Slides**](Braun_2021_DebuggingAstTransformations_SLIDES.pdf)
 
 <!--
 - Problem

@@ -2,7 +2,6 @@
 
 Contributors: Linus Heinzl and Anne Radunski
 
-
 [presentation](presentation/presentation.md) | [documentation](documentation/documentation.md) | [demo](demo/ScreencastNew.mp4)
 
 ## Abstract

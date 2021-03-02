@@ -6,6 +6,7 @@
   - SWD 2021 Essays Again Edition
   - PX 2021 Live Edition
 - 2020
+  - [PLCTE 2020](PLCTE2020/)
   - [EUD 2020  - End-user Development Seminar](EUD2020/)
 - 2019
   - SWD 2019  - End-user Development Seminar (Smalltalk Edition)
