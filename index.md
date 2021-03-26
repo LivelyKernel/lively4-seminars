@@ -3,13 +3,13 @@
 # hpi-swa ![Lively 4](lively4_logo_smooth_200.png){style="position:relative; height: 60px; top: 20px"} Seminar Wiki
 
 - 2021
-  - SWD 2021 Essays Again Edition
-  - PX 2021 Live Edition
+  - [SWD 2021 Essays Again Edition](SWD2021/)
+  - [Live Programming 2021](Live2021/)
 - 2020
   - [PLCTE 2020](PLCTE2020/)
   - [EUD 2020  - End-user Development Seminar](EUD2020/)
 - 2019
-  - SWD 2019  - End-user Development Seminar (Smalltalk Edition)
+  - [SWD 2019  - End-user Development Seminar (Smalltalk Edition)](SWD2019)
   - [PX 2019 - Programming Experience Seminar](PX2019/)
   - [RP 2019  - Reactive Programming Seminar](RP2019/)
 - 2018
