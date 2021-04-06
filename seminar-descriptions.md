@@ -1,5 +1,20 @@
 # Seminar Descriptions
 
+## PX19/20
+
+*Programming Experience (PX) is a subset of User Experience (UX) focusing on software developers, which are users of their programming tools and environments. Contrary to end-users, developers have the capability to build their own tools and systems, and to adapt them for their needs. In self-sustaining systems, such as Lively4 or Squeak/Smalltalk, these tools can be adapted while they are being used.*
+
+*In this seminar, the participants will create or adapt tools and systems in self-sustaining environments with a focus on the programming experience. Topics of interests are programming tools for exploratory programming, babylonian programming, and polyglot programming.*
+
+
+## Reverse Engineering
+
+*Understanding and enhancing existing software systems can be hard, especially when the subject system is legacy software or a still prototype and good documentation, architecture and software design are missing or not yet there.*
+
+*Reverse engineering is a process of analyzing such systems, by identifying its components and their interrelationships, and create representations of the system in another form or at a higher level of abstraction (see [1]), that help refactoring and evolving such systems.*
+
+*In this seminar, the participants will work in teams to develop reverse engineering tools in the context of exploratory development environments Squeak (Smalltalk) and Lively4 (JavaScript) that facilitate such a process.*
+
 
 ### Constraint-basierte Programmierung 2015
 
