@@ -11,3 +11,6 @@
 ## ideas from programming conference
 
 - Island Parsers?
+
+
+![](architecture_pattern_example.png)
