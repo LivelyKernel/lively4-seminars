@@ -27,4 +27,14 @@ Im Rahmen dieser Veranstaltung werden ausgewählte Systeme hinsichtlich relevant
     microsoftid = {3261618}
 }
 
+@article{Ingalls2020ESS,
+    author = {Daniel Ingalls},
+    title = {The evolution of Smalltalk: from Smalltalk-72 through Squeak},
+    year = {2020},
+    microsoftid = {3034286476},
+    booktitle = {Proceedings of the ACM on Programming Languages},
+    doi = {10.1145/3386335}
+}
+
+
 </lively-bibtex>

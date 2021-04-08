@@ -239,18 +239,44 @@
 
 ## PX19
 
-- AST Explorer
-- AST Code Navigation: Replace Tern
+- [*AST Explorer*](../PX2019/project_2/)
+- AST Code Navigation: Replace Tern / [*Use Babel AST in ESLint*](../PX2019/project_3/) 
 - Persisting Code as AST
-- An AST-aware Textual Code Editor
+- [*An AST-aware Textual Code Editor*](../PX2019/project_1/) 
 - X Ray: (A) Better UI
 - X Ray: (B) Show (Async) Behavior
 - Trace Navigation for Example-based Live Programming
 - Explore Git Version History in GraphDB
 - Error Handling in Self-supporting Systems
-- Polyglot AST Explorer
-- Polyglot Object Comparison Tool
-- Virtual Machine Inspector
+- Polyglot AST Explorer / [*Polyglot Method Finder*](../PX2019/project_7/) 
+- [*Polyglot Object Comparison Tool*](../PX2019/project_4/) 
+- [*Virtual Machine Inspector*](../PX2019/project_5/)
+- [*MLE-Development Umgebung im Browser*](../PX2019/project_6/) 
+
+
+## EUD20
+
+- Spreadsheets
+- Alternative Spreadsheet Ideas
+- Active Essays
+- Programming in Games
+- Programming with Constraints
+- TileScripting
+- [**Petri Nets**](../EUD2020/project_3/))
+- Bidirectional Loops in Fabrik
+- Programming by Examples
+- Programming by Demonstration
+- Continuous Time Computation
+- [**Non-linear Constraint Solving**](../EUD2020/project_2/)
+- X Ray (A) Better UI
+- X Ray (B) Show (Async) Behavior
+- Trace Navigation for Example-based Live Programming
+- Async Babylonian Programming
+- Particle-based Simulations
+- [**Fluid Simulation using the Material Point Method**](../EUD2020/project_1/)
+- [**Lively Energy Simulation**](../EUD2020/project_4/)
+  
+
 
 ## PLCTE20
 
@@ -260,10 +286,10 @@
 - Mounting Object Graphs
 - Examples as Tests
 - Stand-off Annotations for Source Code in Lively4
-- Drag-and-Drop UI for Microsoft Academic Queries in Lively4
+- [**Drag-and-Drop UI for Microsoft Academic Queries in Lively4**](../PLCTE2020/project_09/)
 - Async Babylonian Examples in JavaScript
 - Bidirectional Code-UI-Mapping 
-- Debugging Source Code Transformations
+- [**Debugging Source Code Transformations**](../PLCTE2020/project_09/)
 - Language-agnostic Live Programming Tools
 - Polyglot Notebooks for VS Code
 - GraalVM vs. "Traditional" Polyglot Programming
@@ -272,6 +298,8 @@
 - Perspectives in the Squeak Debugger
 - Projecting Web Server Code
 - FFI in Dynamic Languages
+- [**Interactive experimental Database Programming**](../PLCTE2020/project_10/)
+
 
 
 
