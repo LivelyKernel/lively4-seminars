@@ -43,3 +43,11 @@ Presentation.config(this, {
 
 
 ![](architecture_pattern_example.png)
+
+
+----
+## Edge Bundling
+
+- @Stefan
+
+
