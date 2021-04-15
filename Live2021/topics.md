@@ -25,45 +25,28 @@ Presentation.config(this, {
 
 ---
 
-## Live Trace integration for Babel Plugin Explorer 
+## Topics
 
-- @Stefan
 
----
+<script>
 
-## Babylonian Programming in IntelliJ 
+var url = "https://lively-kernel.org/lively4/lively4-seminars/Live2021/Live21_Topics.txt"
 
-- @Patrick
+var source;
+(async () => {
+  source = await fetch(url).then(r => r.text())
+  
+  if (!source) return;
+  
+  var topics = source.split("\n").filter(ea => ea.match("Topic: ")).map(ea => ea.replace(/\([0-9]\/[0-9]\)/,"")).uniq().sort()
 
----
-## Live Modelling 
+  return <ul>{...
+      topics.map(ea => <li>{ea}</li>)
+    }</ul>
+    
+})()
 
-- @Patrick
 
----
-## Spatial Arrangement of Software Systems 
 
-- @Tom
-- Are there better spatial arrangements for source code than tree structures in file hierarchies? 
-- Explore and implement manners to manually curate spatial layouts of large code bases in a block-based programming environment. 
-
----
-## Debugging Blocks
-
-- @Tom
-- Block-based programming systems can easily be extended with decorations or secondary UI widgets. 
-- Explore and implement visualizations in a block-based system connected to a stepping debugger.
-
----
-## Runtime value visualization
-
-- @Tom
-- Systems like Babylonian Programming enable programmers to place probes on expressions to report runtime values. 
-- Explore rich, domain-specific visualizations that display and/or accumulate these.
-
----
-## Retracted
-
-- Live, multi-language JIT Viewer (sehen was der JIT einer Anwendung tut) @Fabio
----
+</script> 
 

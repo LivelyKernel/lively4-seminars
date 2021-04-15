@@ -1,0 +1,213 @@
+Live Programming Seminar Project Topics
+Hasso Plattner Institute, University of Potsdam, Germany
+Software Architecture Group
+Robert Hirschfeld
+Jens Lincke, Patrick Rein, Stefan Ramson, Tom Beckmann
+
+http://www.hpi.uni-potsdam.de/swa/
+
+2021
+First things first:
+Seminar Kickoff in Zoom, Thu April 15th, 13:30
+Zoom Meeting https://uni-potsdam.zoom.us/j/69371244986 Passcode: 78438809
+SWA Slack Channel for this Seminar #live21
+https://join.slack.com/t/hpi-swa-teaching/shared_invite/zt-otx3xhv6-XSnQqjizT3gx0OKbJscsdw 
+Email jens.lincke@hpi.de
+Development Environments
+
+Topics
+Topic: Babylonian Programming in IntelliJ
+Bring Babylonian Programming to IntelliJ based on the polyglot live programming backend.
+
+Challenges
+Design based on nativeIntelliJ Widgets
+Integration as plugin
+Topic: Babylonian Prolog
+Design and implement a Babylonian-style programming environment for Prolog including examples and probes.
+Topic: Live Printf
+Explore and implement a live view of run-time behavior similar to a printf-log but based on the results of probes.
+
+
+
+
+
+
+
+Motivation
+Probes provide live, over-time feedback on the results of an expression, printf-logging provides feedback on the temporal succession of expressions throughout the program.
+Context: X Ray
+Lively XRay tools overlay graphical user interface to:
+Reveal and inspect structure of the DOM hierarchy
+Make user events visible
+Topic: X Ray (A) Better UI
+Explosion View
+
+
+
+
+Better Label Placement
+Topic: X Ray (B) Show (Async) Behavior
+Goal: Extend XRay tools to reveal behavior
+Trace and show computation within components
+Link computation to dynamic DOM structure and static source code
+Highlight reactive components and their over-time behavior
+
+Topic: Live Programming with Back-in-Time Debugging for Source Code Transformations (1/3)
+Context
+Source code transformations are an integral part in JavaScript workflows to support various language dialects, custom extensions, and future language proposals
+Multiple interacting transformations entail high complexity
+Opportunity
+A dedicated tracing tool may reveal why rules trigger, what effects a rule has, and which further rules apply
+Connecting input code, output code, and transformations allow for navigating examples forward and backward in time
+But
+Loss of fast feedback loop hampers programming experience
+Separation of tools discourages adoption of less frequently-used tools
+Topic: Live Programming with Back-in-Time Debugging for Source Code Transformations (2/3)
+Topic: Live Programming with Back-in-Time Debugging for Source Code Transformations (3/3)
+Goal
+Integrate both tools to shorten feedback loop on powerful insights
+Readings
+Whyline
+Inventing on Principle
+Babylonian-style Programming + Babylonian Demos in Lively4
+Moldable Debugger
+Getting started
+Go to https://lively-kernel.org/lively4/lively4-core/start.html
+Topic: Spatial Arrangement of Software Systems
+Explore and implement manners to manually curate spatial layouts of large code bases on a 2D grid in a block-based programming environment
+
+Topic: React/S
+Extend and build tool support for a React implementation in Squeak with a focus on liveness and explorability.
+Topic: Debugging with Blocks
+Explore and implement visualizations in a block-based programming environment connected to a stepwise debugger.
+Topic: Runtime Value Visualization
+Explore and implement rich, domain-specific visualizations that display and/or accumulate runtime values in probes.
+Topic: Async Scripts in Vivide
+Extend a tool-building framework tosupport script interpretation that isnot blocking the UI process
+
+Literature
+Taeumel, Hirschfeld. Evolving User Interfaces From Within Self-sustaining Programming Environments: Exploring the Project Concept of Squeak/Smalltalk to Bootstrap Uis. In PX/16, 2016, ACM.
+Taeumel. Data-driven Tool Construction in Exploratory Programming Environments. PhD Thesis, 2020. https://publishup.uni-potsdam.de/44428
+Pages 10 – 14, 83 – 89, 93 – 103, 131 – 133, 157 – 169 
+Topic: Squeak Inbox Talk
+Improve communication between contributors and core developers by integrating mailing lists and code repositories in a new tool
+
+Literature (and other Materials)
+Steinert, Taeumel, Lincke, Pape, Hirschfeld. CodeTalk – Conversations About Code. C5, 2010, IEEE.
+Ducasse, Nierstrasz, … Squeak By Example (5.3 Edition). 2020, lulu. (Infos about Morphic and tools)
+github.com/hpi-swa/squeak-history
+Web scraping mailman in method #downloadTweak
+github.com/hpi-swa-teaching/IMAPClient
+Send and receive emails via IMAP
+
+Topic: Wildcard
+
+
+
+
+
+
+
+
+Literature
+Geoffrey Litt, Daniel Jackson, Tyler Millis, Jessica Quaye. 2020. End-user software customization by direct manipulation of tabular data.
+Topic: Smalltalk-72 redux
+Smalltalk-72 (Alan Kay and Dan Ingalls)
+Goal for Redux 
+metacircular evaluator in St-72 itself
+currentContext := currentContext next 
+fast enough to be useful / faster that the original assembly language interpreter
+“real definition” of the St-72 interpreter
+Programmer interface 
+Original had no morphic and no decent debugger
+
+
+Literature
+Daniel Ingalls. 2020. The evolution of Smalltalk: from Smalltalk-72 through Squeak
+https://smalltalkzoo.thechm.org/
+
+Bring Your Own Project Idea
+Project proposals are inspirations
+You can shape direction of project!
+which use case to cover, …
+Development Links
+Squeak/Smalltalk
+https://squeak.org/
+https://github.com/hpi-swa/vivide
+
+Lively4:
+https://github.com/livelykernel/lively4-core
+https://lively-kernel.org/lively4/lively4-core/start.html
+
+
+Hand-In Reference Sheet
+Presentation
+Presentation (pdf)
+Screencast (mp4, public, 1080p)
+End of Semester (in zip, link or email)
+Presentation and Screencast again
+Abstract (txt)
+Figure / Screenshot (png, 800x600)
+Sourcecode (MIT License)
+Data
+(squeak image)
+README.md
+All hand-ins will be archived in a public repository
+
+Organization
+Course
+Project-Seminar, 4 SWS, 1-2 students per group
+Presentations
+End-term Presentation (July)
+Grading
+6 ECTS graded credit points
+Grade based on project work and presentation
+Important dates
+Project topics on April 15th
+Enrollment with preferred topic names on or before April 20th
+Mail to jens.lincke@hpi.de with Live21 in subject
+Topic assignment on April 22th
+Presentation dates determined after topics are assigned
+
+Apple Crayons (Samples)
+Tungsten
+Moss
+Ocean
+Tangerine
+Maraschino
+Cayenne
+
+Aqua
+Sky
+Lime
+Plum
+Banana
+Tungsten
+Steele
+Nickel
+Magnesium
+Mercury
+
+Topic: Sketchpad
+
+
+
+
+
+
+Literature
+Ivan Sutherland, 1963. Sketchpad: A man-machine graphical communication system. Phd Thesis
+http://www.youtube.com/watch?v=mOZqRJzE8xg
+https://history-computer.com/sketchpad-complete-history-of-the-sketchpad-computer-program/
+Topic: Codestrates
+
+
+
+
+
+
+
+
+
+Literature
+Roman Rädle, Midas Nouwens, Kristian Antonsen, James R. Eagan, Clemens N. Klokmose. 2017. Codestrates: Literate Computing with Webstrates

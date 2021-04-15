@@ -1,14 +1,19 @@
 # Topic Ideas
 
 ## Playing with Related Work
-- Live Programming In New JavaScript Croquet
-- New JavaScript Croquet (back in Squeak ;-))
-- Webstrates
 
+- Croquet
+  - https://croquet.io/sdk/do
+  - Live Programming In New JavaScript Croquet
+  - New JavaScript Croquet (back in Squeak ;-)) #hard
+- Webstrates [@Klokmose2015WSD]
+  - https://webstrates.net/
+  - https://github.com/Webstrates/Webstrates
+  
 ## Lively4 Applications 
 - MPatch: Lively Changes of Foreign Sites
   - Tables and Websites EUD
-  - Idea... hook/blend custom content based on foreign keys... analogous <https://kapaya.github.io/px21/>
+  - Idea... hook/blend custom content based on foreign keys... analogous [Towards End-user Web Scraping For Customization](https://kapaya.github.io/px21/)
 
 
 ## Practical Problems
@@ -70,4 +75,6 @@
   - <i>We have one (and only one!) disk image with Smalltalk-76 and complete source code.  As the first modern Smalltalk, it is of historical interest, and it is currently not accessible except by running Josh Dersh’s Alto emulator.  It should be fairly easy to adapt either the Notetaker-JS interpreter or SqueakJS to run that image, thus providing access to the original modern Smalltalk with relatively unlimited speed and space for instrumentation and other experiments.</i> (Source: Email from Dan Ingalls, Aug 1, 2020)
   
   
-  
+## Software Architecture
+
+- [@Buschmann1996POS]

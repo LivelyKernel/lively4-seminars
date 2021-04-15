@@ -1,11 +1,24 @@
-# Live Programming 2021 
+# Live 21 
 
-[HPI](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3179-live-programming.html)
+[topics](Live21_Topics.pdf) | [HPI](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3179-live-programming.html)
 
-- Babylonian Programming Experience... Bringing Examples into Source Code
+<script>
+var url = "https://lively-kernel.org/lively4/lively4-seminars/Live2021/Live21_Topics.txt"
+
+var value;
+(async () => {
+  value = await fetch(url).then(r => r.text())
+  var topics =  value.split("\n")
+    .filter(ea => ea.match("Topic: "))
+    .map(ea => ea.replace(/[0-9]\/[0-9]/,"")).uniq().sort()
+    
+  return <ul>{...topics.map(ea => <li>{ea}</li>)}</ul>
+})()
+
+</script>
+
 
 ## Literature
-
 
 <lively-bibtex>
 
