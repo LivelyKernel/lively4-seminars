@@ -1,4 +1,9 @@
+<style data-src="../seminars.css"></style>
+
 # SWD 2021
+
+<lively-import src="../_navigation.html"></lively-import>
+
 
 [HPI](https://hpi.de/studium/im-studium/lehrveranstaltungen/it-systems-engineering-ma/lehrveranstaltung/sose-21-3178-software_design.html)
 
@@ -6,6 +11,12 @@ Softwareentwicklung ist ein kreativer Prozess, in dem Ideen entwickelt und deren
 
 Im Rahmen dieser Veranstaltung werden ausgewählte Systeme hinsichtlich relevanter Entwurfsentscheidungen und deren Umsetzung besprochen.
 
+## Projects
+
+- [Alexander Junger und Mark Bader: ECS for Programming Novices (@Tom)](project_1/index.md)
+- [Sven Kästle und Nicolas Walk: Pipes and Filters (@Jens)](project_2/index.md)
+- [Philipp Gampe: Event Sourcing (@Jens)](project_3/index.md)
+- [Teresa Lasarow: Croquet (@Jens)](project_4/index.md)
 
 ## Literature
 
