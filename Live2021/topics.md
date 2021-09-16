@@ -29,24 +29,21 @@ Presentation.config(this, {
 
 
 <script>
+var container = lively.query(this, "lively-container")
+var url = container.getDir() + "/Live21_Topics.txt"
 
-var url = "https://lively-kernel.org/lively4/lively4-seminars/Live2021/Live21_Topics.txt"
-
-var source;
+var value;
 (async () => {
-  source = await fetch(url).then(r => r.text())
-  
-  if (!source) return;
-  
-  var topics = source.split("\n").filter(ea => ea.match("Topic: ")).map(ea => ea.replace(/\([0-9]\/[0-9]\)/,"")).uniq().sort()
-
-  return <ul>{...
-      topics.map(ea => <li>{ea}</li>)
-    }</ul>
+  value = await fetch(url).then(r => r.text())
+  var topics =  value.split("\n")
+    .filter(ea => ea.match("Topic: "))
+    .map(ea => ea.replace(/[0-9]\/[0-9]/,"")).uniq().sort()
     
+  return <ul>{...
+    topics.map(ea => <li>{ea}</li>)
+  }</ul>
 })()
 
+</script>
 
-
-</script> 
 

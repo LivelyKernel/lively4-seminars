@@ -1,6 +1,6 @@
 <style data-src="../seminars.css"></style>
 
-# SWD 2021
+# #SWD21
 
 <lively-import src="../_navigation.html"></lively-import>
 
@@ -20,6 +20,8 @@ Im Rahmen dieser Veranstaltung werden ausgewählte Systeme hinsichtlich relevant
 
 ## Literature
 
+- [Explorable Explanations](http://worrydream.com/#!/ExplorableExplanations)
+- [Learnable Programming](http://worrydream.com/#!/LearnableProgramming)
 
 <lively-bibtex>
 
