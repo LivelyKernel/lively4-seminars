@@ -1,13 +1,10 @@
 # Reactive Programming SS2018
+<style data-src="../seminars.css" data-url="https://lively-kernel.org/lively4/lively4-seminars/seminars.css">h1.title { position: relative; } h1.title { margin-right: 100px; } h1.title.hpi::after { display: inline-block; background-repeat:no-repeat; position: absolute; right: -90px; top: -10px; content:""; background-image: url(https://lively-kernel.org/lively4/lively4-seminars/hpi_logo_text.png); background-size: 100px; width: 100px; height: 80px; } /* after will override after ... so we can do two logos that way? #Hack */ h1.title.lively4::before { display: inline-block; background-repeat:no-repeat; position: absolute; right: 20px; top: -10px; content:""; background-image: url(https://lively-kernel.org/lively4/lively4-seminars/PX2018/media/lively4_logo.png); background-size: 100px; width: 100px; height: 80px; } .thumb { width: 300px } li.project { border: 2px solid lightgray; width: 300px; height: 250px; float: left; margin: 10px; list-style-type: none; font-size: 14pt; overflow: hidden; text-align: center; padding: 10px; } h1, h2, h3, h4, p { clear: left; } li.lively4, li.squeak { position: relative; } li.lively4::before, li.squeak::before { display: inline-block; background-repeat:no-repeat; position: absolute; right: 0px; bottom: 0px; content:""; } li.lively4::before { background-image: url(https://lively-kernel.org/lively4/lively4-seminars/PX2018/media/lively4_logo.png); background-size: 60px; width: 60px; height: 40px; } li.squeak::before { background-image: url(https://lively-kernel.org/lively4/lively4-seminars/PX2018/media/smalltalk_logo.png); background-size: 60px; width: 60px; height: 60px; }</style><style class="darkreader darkreader--sync" media="screen"></style>
 
-
-<style data-src="../seminars.css"></style>
-<lively-import src="../_navigation.html"></lively-import>
+<lively-import src="https://lively-kernel.org/lively4/lively4-seminars/RP2018/../_navigation.html"></lively-import>
 
 ## Projects
 
-- [VivideJS](vivide-js/index.md)  ![](vivide-js/screenshot.png){.thumb} {.project}
+- [VivideJS](vivide-js/index.md) ![](https://lively-kernel.org/lively4/lively4-seminars/RP2018/vivide-js/screenshot.png)
 
-
-<lively-import src="../_logo.html"></lively-import>
-<lively-import src="../_footer.html"></lively-import>
+<lively-import src="https://lively-kernel.org/lively4/lively4-seminars/RP2018/../_logo.html"></lively-import><lively-import src="https://lively-kernel.org/lively4/lively4-seminars/RP2018/../_footer.html"></lively-import>
